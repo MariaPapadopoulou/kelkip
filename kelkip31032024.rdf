@@ -1,0 +1,2652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ontoterminology: Ontoterminology of seats -->
+<!-- Author: Christophe Roche -->
+<!-- Creation date: 29 juin 2017 -->
+<!-- Export date: 1 avril 2024 time: 01:15:10 -->
+<!-- TEDI version: 3.7 -->
+<!-- http://ontoterminology.com/tedi -->
+<rdf:RDF xmlns="http://www.ontologia.fr/OTB/kelkip31032024#"
+    xml:base="http://www.ontologia.fr/OTB/kelkip31032024"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:otv="http://www.ontologia.fr/OTB/otv#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#">
+
+	<!-- 
+	//////////////////////////////////////////////////////////
+	//
+	// SKOS
+	//
+	//////////////////////////////////////////////////////////
+	-->
+
+	<!--  SKOS Concept Scheme -->
+
+    <skos:ConceptScheme rdf:about="http://www.ontologia.fr/OTB/kelkip31032024">
+        <dc:title>Ontoterminology of seats</dc:title>
+        <dc:description>Ontoterminology of seats considered as things made or used for sitting on, such as a chair or stool.</dc:description>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-6-29</dc:issued>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-3-31</dc:modified>
+        <dc:creator>Christophe Roche</dc:creator>
+        <dc:publisher>Condillac</dc:publisher>
+    </skos:ConceptScheme>
+
+	<!--  SKOS Concepts -->
+
+    <skos:Concept rdf:about="#Seat_with_feet_for_one_person">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Seat_for_one_person"/>
+        <skos:broader rdf:resource="#Seat_with_feet"/>
+        <skos:narrower rdf:resource="#Seat_with_feet_for_one_person_without_arms_without_back"/>
+        <skos:narrower rdf:resource="#Seat_with_feet_for_one_person_with_back"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_with_feet_for_one_person_with_back_with_arms">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <rdfs:label xml:lang="fr">fauteuil</rdfs:label>
+        <skos:prefLabel xml:lang="fr">fauteuil</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège avec dossier, pour une personne, avec pieds, avec bras.</skos:definition>
+        <skos:note xml:lang="fr">Siège à dossier, généralement à bras, pour une personne, et dans lequel on est assis confortablement. Source : TLFi 02062017</skos:note>
+        <skos:note xml:lang="fr">"Term applied to a wide variety of chairs with arms, to distinguish them from side chairs which have no arms."
+Getty
+http:www.getty.eduvowAATFullDisplay?find=chair&amp;logic=AND&amp;note=&amp;english=N&amp;prev_page=1&amp;subjectid=300037776</skos:note>
+        <skos:example xml:lang="fr">"Assise à sa fenêtre, dans un grand fauteuil d'osier, Marthe rêvait" (MOSELLY, Terres lorr., 1907, p. 160). Source : TLFi 02062017</skos:example>
+        <rdfs:label xml:lang="fr">bergère</rdfs:label>
+        <skos:altLabel xml:lang="fr">bergère</skos:altLabel>
+        <skos:definition xml:lang="fr">Fauteuil large et profond, muni de joues pleines, dont le siège est pourvu d'un coussin.</skos:definition>
+        <skos:note xml:lang="fr">Fauteuil large et profond, muni de joues pleines, dont le siège est pourvu d'un coussin. Source : TLFi 302092017</skos:note>
+        <skos:example xml:lang="fr">Elle les « couvrait » soigneusement [ses livres] puis, après avoir choisi l'un d'eux, s'installait près de la fenêtre, dans sa bergère à oreillettes, chaussait ses besicles, soupirait de bonheur et de lassitude, baissait les paupières avec un fin sourire voluptueux que j'ai retrouvé depuis sur les lèvres de la Joconde; ...
+SARTRE, Les Mots, 1964, p. 31.
+Source : TLFi 04052020</skos:example>
+        <rdfs:label xml:lang="en">armchair</rdfs:label>
+        <skos:prefLabel xml:lang="en">armchair</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat with feet, for one person, with back, with arms.</skos:definition>
+        <skos:note xml:lang="en">"An armchair is a big comfortable chair which has a support on each side for your arms."
+https:www.collinsdictionary.comdictionaryenglisharmchair
+2020 05 17</skos:note>
+        <rdfs:label xml:lang="en">elbow chair</rdfs:label>
+        <skos:altLabel xml:lang="en">elbow chair</skos:altLabel>
+        <skos:definition xml:lang="en">Seat with feet, for one person, with back, with arms.</skos:definition>
+        <rdfs:label xml:lang="gr">πολυθρόνα</rdfs:label>
+        <skos:prefLabel xml:lang="gr">πολυθρόνα</skos:prefLabel>
+        <skos:definition xml:lang="gr">Κάθισμα για ένα άτομο, με μπράτσο, πλάτη και πόδια.</skos:definition>
+        <skos:broader rdf:resource="#Seat_with_feet_for_one_person_with_back"/>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/FauteuiALaReine.PNG"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300037776"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiFauteuil"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_without_feet_for_one_person_without_arms_without_back">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <rdfs:label xml:lang="fr">pouf</rdfs:label>
+        <skos:prefLabel xml:lang="fr">pouf</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège pour une personne, sans pieds, sans bras, sans dossier.</skos:definition>
+        <skos:note xml:lang="fr">"Tabouret bas, généralement cylindrique, capitonné, sans bois apparent, pour une ou plusieurs personnes; gros coussin posé sur le sol." TLFi 2017-07-09</skos:note>
+        <skos:example xml:lang="fr">"Pouf marocain. Pour elle, la vie ne commence qu'aux lumières (...) parmi les parures et l'ondoiement des jupes lustrées, argentées, brodées, qui se froissent et s'étalent sur les poufs roses" (TAINE, Notes Paris, 1867, p.178). TLFi 2017-07-09</skos:example>
+        <rdfs:label xml:lang="en">ottoman</rdfs:label>
+        <skos:prefLabel xml:lang="en">ottoman</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat without feet, for one person, without arms, without back.</skos:definition>
+        <skos:note xml:lang="en">(Wikipedia)
+In American English, an ottoman is a piece of furniture consisting of a padded, upholstered seat or bench, usually having neither a back nor arms, often used as a stool, footstool[2][3] or, in some cases, as a coffee table.[4] Ottomans are often sold as coordinating furniture with armchairs or gliders.[5] An ottoman can also be known as a footstool,[6] tuffet,[7] hassock,[8] "Sitee" or pouffe.[9][10] In British English, "ottoman" also denotes an upholstered seat without a back or arms, but one that usually serves as storage, with the seat hinged to form a lid.
+
+Ottomans can be used throughout the house, in the bedroom, gaming room, family room and guest room. Leather and bench ottomans are used as alternatives to sofas.
+
+https:en.wikipedia.orgwikiOttoman_(furniture)</skos:note>
+        <skos:note xml:lang="en">(Babelnet)
+A low seat or a stool to rest the feet of a seated person.
+http:babelnet.orgsynset?word=bn:00035743n&amp;details=1&amp;lang=EN&amp;orig=ottoman</skos:note>
+        <skos:note xml:lang="en">"An ottoman is a low, padded seat similar to a couch but without a back or arms."
+https:www.collinsdictionary.comdictionaryenglishottoman
+2020 05 17</skos:note>
+        <skos:broader rdf:resource="#Seat_for_one_person"/>
+        <skos:broader rdf:resource="#Seat_without_feet"/>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/PoufStyleNapoléonIII.PNG"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Material_naturel_minéral">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Material_naturel"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_with_feet_for_several_people_with_arms_with_back">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <rdfs:label xml:lang="fr">canapé</rdfs:label>
+        <skos:prefLabel xml:lang="fr">canapé</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège pour plusieurs personnes, avec pieds, avec bras, avec dossier.</skos:definition>
+        <skos:note xml:lang="fr">Siège à dossier, pourvu d'accoudoirs, où plusieurs personnes peuvent s'asseoir, pouvant aussi servir de lit de repos pour une personne. TLFi 02062017</skos:note>
+        <skos:example xml:lang="fr">"Nous passâmes une heure ensemble, assis sur le même canapé, dans une grande pièce de la villa où il [Roosevelt] s'était installé. DE GAULLE, Mémoires de guerre, 1956, p. 79." TLFi 02062017</skos:example>
+        <rdfs:label xml:lang="en">couch</rdfs:label>
+        <skos:prefLabel xml:lang="en">couch</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat with feet, for several people, with arms, with back.</skos:definition>
+        <skos:note xml:lang="en">"A couch is a long, comfortable seat for two or three people."
+https:www.collinsdictionary.comdictionaryenglishcouch
+2020 05 17</skos:note>
+        <rdfs:label xml:lang="gr">καναπές</rdfs:label>
+        <skos:prefLabel xml:lang="gr">καναπές</skos:prefLabel>
+        <skos:definition xml:lang="gr">Κάθισμα για περισσότερα από ένα άτομα, με μπράτσα, πλάτη και πόδια. </skos:definition>
+        <rdfs:label xml:lang="zh">长椅</rdfs:label>
+        <skos:prefLabel xml:lang="zh">长椅</skos:prefLabel>
+        <skos:broader rdf:resource="#Seat_with_feet_for_several_people"/>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/CanapéStyleLouisXV.PNG"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiCanap%C3%A9"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300038636"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Back">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Part"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Arm">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Part"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:topConceptOf rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <rdfs:label xml:lang="fr">siège</rdfs:label>
+        <skos:prefLabel xml:lang="fr">siège</skos:prefLabel>
+        <skos:definition xml:lang="fr">Meuble où on s'assied.</skos:definition>
+        <skos:note xml:lang="fr">"Meuble comprenant généralement quatre pieds, une partie horizontale où l'on s'assied et éventuellement un dossier et des accoudoirs." Source : TLFi 31052017</skos:note>
+        <skos:note xml:lang="fr">"Objet à usage domestique, fait pour s'asseoir, et qui meuble les différentes parties d'une maison ou de ses dépendances: pour une personne, à dossier (v. chaise), à dossier et accoudoir (v. bergère, fauteuil), sans accoudoir ni dossier (v. tabouret), sans pieds (v. pouf2), pour plusieurs personnes, sans dossier (v. banc), avec ou sans dossier (v. banquette, canapé)." Source : TLFi 31052017</skos:note>
+        <skos:note xml:lang="fr">"General term for any furniture intended for seating."
+Getty
+http:www.getty.eduvowAATFullDisplay?find=&amp;logic=AND&amp;note=&amp;subjectid=300037769</skos:note>
+        <skos:example xml:lang="fr">"Il s'aperçut alors de sa fatigue; il était resté debout trois ou quatre heures de suite. Il chercha un siège pour s'asseoir (MARTIN DU G., Thib., Pénitenc., 1922, p. 882)." Source : TLFi 31052017</skos:example>
+        <rdfs:label xml:lang="en">seat</rdfs:label>
+        <skos:prefLabel xml:lang="en">seat</skos:prefLabel>
+        <skos:definition xml:lang="en">Piece of furniture designed for seating on.</skos:definition>
+        <skos:note xml:lang="en">"A thing made or used for sitting on, such as a chair or stool."
+https:www.lexico.comendefinitionseat
+2020 05 17</skos:note>
+        <skos:note xml:lang="en">"A seat is an object that you can sit on, for example a chair."
+https:www.collinsdictionary.comdictionaryenglishseat
+2020 05 17</skos:note>
+        <rdfs:label xml:lang="gr">κάθισμα</rdfs:label>
+        <skos:prefLabel xml:lang="gr">κάθισμα</skos:prefLabel>
+        <skos:definition xml:lang="gr">Έπιπλο προορισμένο για να κάθεται κανείς.</skos:definition>
+        <rdfs:label xml:lang="zh">座位</rdfs:label>
+        <skos:prefLabel xml:lang="zh">座位</skos:prefLabel>
+        <skos:narrower rdf:resource="#Seat_for_one_person"/>
+        <skos:narrower rdf:resource="#Seat_for_several_people"/>
+        <skos:narrower rdf:resource="#Seat_with_feet"/>
+        <skos:narrower rdf:resource="#Seat_without_feet"/>
+        <skos:related rdf:resource="#Material"/>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/Sièges.PNG"/>
+        <skos:broadMatch rdf:resource="http:erlangen-crm.org170309E22_Man-Made_Object"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiSi%C3%A8ge"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300037769"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_for_one_person">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Seat"/>
+        <skos:narrower rdf:resource="#Seat_with_feet_for_one_person"/>
+        <skos:narrower rdf:resource="#Seat_without_feet_for_one_person_without_arms_without_back"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#A">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:topConceptOf rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_with_feet_for_one_person_with_back">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <rdfs:label xml:lang="zh">椅子</rdfs:label>
+        <skos:prefLabel xml:lang="zh">椅子</skos:prefLabel>
+        <skos:broader rdf:resource="#Seat_with_feet_for_one_person"/>
+        <skos:narrower rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+        <skos:narrower rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Part">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:topConceptOf rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:narrower rdf:resource="#Feet"/>
+        <skos:narrower rdf:resource="#Arm"/>
+        <skos:narrower rdf:resource="#Back"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_with_feet_for_several_people_without_back_without_arms">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <rdfs:label xml:lang="fr">banc</rdfs:label>
+        <skos:prefLabel xml:lang="fr">banc</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège pour plusieurs personnes, avec pieds, sans dossier, sans bras.</skos:definition>
+        <skos:note xml:lang="fr">Siège allongé, avec ou sans dossier, sur lequel plusieurs personnes peuvent s'asseoir en même temps. Source : TLFi 02062017</skos:note>
+        <skos:example xml:lang="fr">"Le roi portait un chapeau rond, la ganse enrichie de perles, et surmonté d'un gros diamant connu sous le nom de Pitt. Chacun était assis sur un fauteuil, une chaise, un banc, un tabouret, selon son rang ou sa dignité; ..." ERCKMANN-CHATRIAN, Histoire d'un paysan, t. 1, 1870, p. 219. Source : TLFi 02062017</skos:example>
+        <rdfs:label xml:lang="en">bench</rdfs:label>
+        <skos:prefLabel xml:lang="en">bench</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat with feet, for several people, without back, without arms.</skos:definition>
+        <skos:note xml:lang="en">"A bench is a long seat of wood or metal that two or more people can sit on."
+https:www.collinsdictionary.comdictionaryenglishbench
+2020 05 17</skos:note>
+        <rdfs:label xml:lang="zh">长凳</rdfs:label>
+        <skos:prefLabel xml:lang="zh">长凳</skos:prefLabel>
+        <skos:broader rdf:resource="#Seat_with_feet_for_several_people"/>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/BancVersailles.PNG"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300038494"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiBanc_(si%C3%A8ge)"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_with_feet_for_several_people">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Seat_for_several_people"/>
+        <skos:broader rdf:resource="#Seat_with_feet"/>
+        <skos:narrower rdf:resource="#Seat_with_feet_for_several_people_without_back_without_arms"/>
+        <skos:narrower rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Material_naturel">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Material"/>
+        <skos:narrower rdf:resource="#Material_naturel_végétal"/>
+        <skos:narrower rdf:resource="#Material_naturel_minéral"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Material_artificiel">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Material"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_without_feet">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Seat"/>
+        <skos:narrower rdf:resource="#Seat_without_feet_for_one_person_without_arms_without_back"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_with_feet_for_one_person_without_arms_without_back">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <rdfs:label xml:lang="fr">tabouret</rdfs:label>
+        <skos:prefLabel xml:lang="fr">tabouret</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège pour une personne, avec pieds, sans bras, sans dossier.</skos:definition>
+        <skos:note xml:lang="fr">Siège pour une personne, généralement à quatre pieds, sans bras ni dossier. TLFi 02062017</skos:note>
+        <skos:example xml:lang="fr">"Je n'ai jamais su m'asseoir dans un fauteuil (...). J'y suis tout raide. Ce qu'il me faut, c'est une chaise, ou un bon tabouret. Plutôt la chaise; pour les reins; le tabouret quand j'étais jeune (PÉGUY, V.-M., comte Hugo, 1910, p. 670)." TLFi 02062017</skos:example>
+        <rdfs:label xml:lang="en">stool</rdfs:label>
+        <skos:prefLabel xml:lang="en">stool</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat with feet, for one person, without arms, without back.</skos:definition>
+        <skos:note xml:lang="en">"A stool is a seat with legs but no support for your arms or back."
+https:www.collinsdictionary.comdictionaryenglishstool
+2020 05 17</skos:note>
+        <skos:broader rdf:resource="#Seat_with_feet_for_one_person"/>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/Tabouret.PNG"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiTabouret"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300038418"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Material_naturel_végétal">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Material_naturel"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_with_feet">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Seat"/>
+        <skos:narrower rdf:resource="#Seat_with_feet_for_several_people"/>
+        <skos:narrower rdf:resource="#Seat_with_feet_for_one_person"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Feet">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Part"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_with_feet_for_one_person_with_back_without_arms">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <rdfs:label xml:lang="fr">chaise</rdfs:label>
+        <skos:prefLabel xml:lang="fr">chaise</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège avec pieds, pour une personne, avec dossier, sans bras.</skos:definition>
+        <skos:note xml:lang="fr">Siège à dossier et généralement sans bras. Source : TLFi 31052017</skos:note>
+        <skos:example xml:lang="fr">"Les cafés à l'entour avaient depuis longtemps couché sur leurs tables de marbre leurs chaises tendrement rabotées par des derrières peu soucieux de voyages. QUENEAU, Pierrot mon ami, 1942, p. 199." Source : TLFi 31052017</skos:example>
+        <rdfs:label xml:lang="fr">chaise d'intérieur</rdfs:label>
+        <skos:altLabel xml:lang="fr">chaise d'intérieur</skos:altLabel>
+        <skos:definition xml:lang="fr">Siège avec dossier, pour une personne, avec pieds, sans bras.</skos:definition>
+        <rdfs:label xml:lang="en">chair</rdfs:label>
+        <skos:prefLabel xml:lang="en">chair</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat with feet, for one person, with back, without arms.</skos:definition>
+        <skos:note xml:lang="en">"A chair is a piece of furniture for one person to sit on. Chairs have a back and four legs."
+https:www.collinsdictionary.comdictionaryenglishchair
+2020 05 17</skos:note>
+        <skos:example xml:lang="en">‘Cafe tables and chairs face a bench seat below a lowered ceiling that curves for an atmospheric effect.’
+https:www.lexico.comdefinitionchair</skos:example>
+        <rdfs:label xml:lang="gr">καρέκλα</rdfs:label>
+        <skos:prefLabel xml:lang="gr">καρέκλα</skos:prefLabel>
+        <skos:definition xml:lang="gr">Κάθισμα για ένα άτομο, χωρίς μπράτσα, με πλάτη και πόδια. </skos:definition>
+        <skos:broader rdf:resource="#Seat_with_feet_for_one_person_with_back"/>
+        <skos:related rdf:resource="#Part"/>
+        <foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ch%C3%A2teau_de_Versailles%2C_appartement_du_Dauphin%2C_grand_cabinet_du_Dauphin%2C_chaises.jpg/800px-Ch%C3%A2teau_de_Versailles%2C_appartement_du_Dauphin%2C_grand_cabinet_du_Dauphin%2C_chaises.jpg"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300037772"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiChaise"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Material">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:topConceptOf rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <rdfs:label xml:lang="en">material</rdfs:label>
+        <skos:prefLabel xml:lang="en">material</skos:prefLabel>
+        <skos:narrower rdf:resource="#Material_naturel"/>
+        <skos:narrower rdf:resource="#Material_artificiel"/>
+        <skos:narrower rdf:resource="#Material_composite"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Seat_for_several_people">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Seat"/>
+        <skos:narrower rdf:resource="#Seat_with_feet_for_several_people"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Material_composite">
+        <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/kelkip31032024"/>
+        <skos:broader rdf:resource="#Material"/>
+    </skos:Concept>
+
+	<!-- 
+	//////////////////////////////////////////////////////////
+	//
+	// OWL
+	//
+	//////////////////////////////////////////////////////////
+	-->
+
+	<!--  OWL Ontology -->
+
+    <owl:Ontology rdf:about="http://www.ontologia.fr/OTB/kelkip31032024">
+        <dc:title>Ontoterminology of seats</dc:title>
+        <dc:description>Ontoterminology of seats considered as things made or used for sitting on, such as a chair or stool.</dc:description>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-6-29</dc:issued>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-3-31</dc:modified>
+        <dc:creator>Christophe Roche</dc:creator>
+        <dc:publisher>Condillac</dc:publisher>
+    </owl:Ontology>
+
+	<!--  OWL Object Properties -->
+
+    <owl:ObjectProperty rdf:about="#hasPart">
+        <rdfs:label>hasPart</rdfs:label>
+        <owl:inverseOf rdf:resource="#partOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#partOf">
+        <rdfs:label>partOf</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#relatedTo">
+        <rdfs:label>relatedTo</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#causal">
+        <rdfs:label>causal</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#hasFunction">
+        <rdfs:label>hasFunction</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#sequential">
+        <rdfs:label>sequential</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#madeOf">
+        <rdfs:label>madeOf</rdfs:label>
+        <rdfs:domain rdf:resource="#Seat"/>
+        <rdfs:range rdf:resource="#Material"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#equivalentTo">
+        <rdfs:label>equivalentTo</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#hasPart">
+        <rdfs:label>hasPart</rdfs:label>
+        <rdfs:domain rdf:resource="#Seat"/>
+        <rdfs:range rdf:resource="#Part"/>
+    </owl:ObjectProperty>
+
+	<!--  OWL Data Properties -->
+
+    <owl:DatatypeProperty rdf:about="#material">
+        <rdfs:label>material</rdfs:label>
+        <rdfs:domain rdf:resource="#Seat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#colour">
+        <rdfs:label>colour</rdfs:label>
+        <rdfs:domain rdf:resource="#Seat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#weight">
+        <rdfs:label>weight</rdfs:label>
+        <rdfs:domain rdf:resource="#Seat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
+	<!--  OWL Classes -->
+
+    <owl:Class rdf:about="#Seat_with_feet_for_one_person">
+        <rdfs:subClassOf rdf:resource="#Seat_for_one_person"/>
+        <rdfs:subClassOf rdf:resource="#Seat_with_feet"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_with_feet_for_one_person_with_back_with_arms">
+        <rdfs:label xml:lang="fr">fauteuil</rdfs:label>
+        <skos:prefLabel xml:lang="fr">fauteuil</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège avec dossier, pour une personne, avec pieds, avec bras.</skos:definition>
+        <skos:note xml:lang="fr">Siège à dossier, généralement à bras, pour une personne, et dans lequel on est assis confortablement. Source : TLFi 02062017</skos:note>
+        <skos:note xml:lang="fr">"Term applied to a wide variety of chairs with arms, to distinguish them from side chairs which have no arms."
+Getty
+http:www.getty.eduvowAATFullDisplay?find=chair&amp;logic=AND&amp;note=&amp;english=N&amp;prev_page=1&amp;subjectid=300037776</skos:note>
+        <skos:example xml:lang="fr">"Assise à sa fenêtre, dans un grand fauteuil d'osier, Marthe rêvait" (MOSELLY, Terres lorr., 1907, p. 160). Source : TLFi 02062017</skos:example>
+        <rdfs:label xml:lang="fr">bergère</rdfs:label>
+        <skos:altLabel xml:lang="fr">bergère</skos:altLabel>
+        <skos:definition xml:lang="fr">Fauteuil large et profond, muni de joues pleines, dont le siège est pourvu d'un coussin.</skos:definition>
+        <skos:note xml:lang="fr">Fauteuil large et profond, muni de joues pleines, dont le siège est pourvu d'un coussin. Source : TLFi 302092017</skos:note>
+        <skos:example xml:lang="fr">Elle les « couvrait » soigneusement [ses livres] puis, après avoir choisi l'un d'eux, s'installait près de la fenêtre, dans sa bergère à oreillettes, chaussait ses besicles, soupirait de bonheur et de lassitude, baissait les paupières avec un fin sourire voluptueux que j'ai retrouvé depuis sur les lèvres de la Joconde; ...
+SARTRE, Les Mots, 1964, p. 31.
+Source : TLFi 04052020</skos:example>
+        <rdfs:label xml:lang="en">armchair</rdfs:label>
+        <skos:prefLabel xml:lang="en">armchair</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat with feet, for one person, with back, with arms.</skos:definition>
+        <skos:note xml:lang="en">"An armchair is a big comfortable chair which has a support on each side for your arms."
+https:www.collinsdictionary.comdictionaryenglisharmchair
+2020 05 17</skos:note>
+        <rdfs:label xml:lang="en">elbow chair</rdfs:label>
+        <skos:altLabel xml:lang="en">elbow chair</skos:altLabel>
+        <skos:definition xml:lang="en">Seat with feet, for one person, with back, with arms.</skos:definition>
+        <rdfs:label xml:lang="gr">πολυθρόνα</rdfs:label>
+        <skos:prefLabel xml:lang="gr">πολυθρόνα</skos:prefLabel>
+        <skos:definition xml:lang="gr">Κάθισμα για ένα άτομο, με μπράτσο, πλάτη και πόδια.</skos:definition>
+        <rdfs:subClassOf rdf:resource="#Seat_with_feet_for_one_person_with_back"/>
+        <owl:disjointWith rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#with_arms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/FauteuiALaReine.PNG"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300037776"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiFauteuil"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_without_feet_for_one_person_without_arms_without_back">
+        <rdfs:label xml:lang="fr">pouf</rdfs:label>
+        <skos:prefLabel xml:lang="fr">pouf</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège pour une personne, sans pieds, sans bras, sans dossier.</skos:definition>
+        <skos:note xml:lang="fr">"Tabouret bas, généralement cylindrique, capitonné, sans bois apparent, pour une ou plusieurs personnes; gros coussin posé sur le sol." TLFi 2017-07-09</skos:note>
+        <skos:example xml:lang="fr">"Pouf marocain. Pour elle, la vie ne commence qu'aux lumières (...) parmi les parures et l'ondoiement des jupes lustrées, argentées, brodées, qui se froissent et s'étalent sur les poufs roses" (TAINE, Notes Paris, 1867, p.178). TLFi 2017-07-09</skos:example>
+        <rdfs:label xml:lang="en">ottoman</rdfs:label>
+        <skos:prefLabel xml:lang="en">ottoman</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat without feet, for one person, without arms, without back.</skos:definition>
+        <skos:note xml:lang="en">(Wikipedia)
+In American English, an ottoman is a piece of furniture consisting of a padded, upholstered seat or bench, usually having neither a back nor arms, often used as a stool, footstool[2][3] or, in some cases, as a coffee table.[4] Ottomans are often sold as coordinating furniture with armchairs or gliders.[5] An ottoman can also be known as a footstool,[6] tuffet,[7] hassock,[8] "Sitee" or pouffe.[9][10] In British English, "ottoman" also denotes an upholstered seat without a back or arms, but one that usually serves as storage, with the seat hinged to form a lid.
+
+Ottomans can be used throughout the house, in the bedroom, gaming room, family room and guest room. Leather and bench ottomans are used as alternatives to sofas.
+
+https:en.wikipedia.orgwikiOttoman_(furniture)</skos:note>
+        <skos:note xml:lang="en">(Babelnet)
+A low seat or a stool to rest the feet of a seated person.
+http:babelnet.orgsynset?word=bn:00035743n&amp;details=1&amp;lang=EN&amp;orig=ottoman</skos:note>
+        <skos:note xml:lang="en">"An ottoman is a low, padded seat similar to a couch but without a back or arms."
+https:www.collinsdictionary.comdictionaryenglishottoman
+2020 05 17</skos:note>
+        <rdfs:subClassOf rdf:resource="#Seat_for_one_person"/>
+        <rdfs:subClassOf rdf:resource="#Seat_without_feet"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#without_arms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#without_back"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/PoufStyleNapoléonIII.PNG"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Material_naturel_minéral">
+        <rdfs:subClassOf rdf:resource="#Material_naturel"/>
+        <owl:disjointWith rdf:resource="#Material_naturel_végétal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#minéral"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_with_feet_for_several_people_with_arms_with_back">
+        <rdfs:label xml:lang="fr">canapé</rdfs:label>
+        <skos:prefLabel xml:lang="fr">canapé</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège pour plusieurs personnes, avec pieds, avec bras, avec dossier.</skos:definition>
+        <skos:note xml:lang="fr">Siège à dossier, pourvu d'accoudoirs, où plusieurs personnes peuvent s'asseoir, pouvant aussi servir de lit de repos pour une personne. TLFi 02062017</skos:note>
+        <skos:example xml:lang="fr">"Nous passâmes une heure ensemble, assis sur le même canapé, dans une grande pièce de la villa où il [Roosevelt] s'était installé. DE GAULLE, Mémoires de guerre, 1956, p. 79." TLFi 02062017</skos:example>
+        <rdfs:label xml:lang="en">couch</rdfs:label>
+        <skos:prefLabel xml:lang="en">couch</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat with feet, for several people, with arms, with back.</skos:definition>
+        <skos:note xml:lang="en">"A couch is a long, comfortable seat for two or three people."
+https:www.collinsdictionary.comdictionaryenglishcouch
+2020 05 17</skos:note>
+        <rdfs:label xml:lang="gr">καναπές</rdfs:label>
+        <skos:prefLabel xml:lang="gr">καναπές</skos:prefLabel>
+        <skos:definition xml:lang="gr">Κάθισμα για περισσότερα από ένα άτομα, με μπράτσα, πλάτη και πόδια. </skos:definition>
+        <rdfs:label xml:lang="zh">长椅</rdfs:label>
+        <skos:prefLabel xml:lang="zh">长椅</skos:prefLabel>
+        <rdfs:subClassOf rdf:resource="#Seat_with_feet_for_several_people"/>
+        <owl:disjointWith rdf:resource="#Seat_with_feet_for_several_people_without_back_without_arms"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#with_arms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#with_back"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/CanapéStyleLouisXV.PNG"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiCanap%C3%A9"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300038636"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Back">
+        <rdfs:subClassOf rdf:resource="#Part"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Arm">
+        <rdfs:subClassOf rdf:resource="#Part"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat">
+        <rdfs:label xml:lang="fr">siège</rdfs:label>
+        <skos:prefLabel xml:lang="fr">siège</skos:prefLabel>
+        <skos:definition xml:lang="fr">Meuble où on s'assied.</skos:definition>
+        <skos:note xml:lang="fr">"Meuble comprenant généralement quatre pieds, une partie horizontale où l'on s'assied et éventuellement un dossier et des accoudoirs." Source : TLFi 31052017</skos:note>
+        <skos:note xml:lang="fr">"Objet à usage domestique, fait pour s'asseoir, et qui meuble les différentes parties d'une maison ou de ses dépendances: pour une personne, à dossier (v. chaise), à dossier et accoudoir (v. bergère, fauteuil), sans accoudoir ni dossier (v. tabouret), sans pieds (v. pouf2), pour plusieurs personnes, sans dossier (v. banc), avec ou sans dossier (v. banquette, canapé)." Source : TLFi 31052017</skos:note>
+        <skos:note xml:lang="fr">"General term for any furniture intended for seating."
+Getty
+http:www.getty.eduvowAATFullDisplay?find=&amp;logic=AND&amp;note=&amp;subjectid=300037769</skos:note>
+        <skos:example xml:lang="fr">"Il s'aperçut alors de sa fatigue; il était resté debout trois ou quatre heures de suite. Il chercha un siège pour s'asseoir (MARTIN DU G., Thib., Pénitenc., 1922, p. 882)." Source : TLFi 31052017</skos:example>
+        <rdfs:label xml:lang="en">seat</rdfs:label>
+        <skos:prefLabel xml:lang="en">seat</skos:prefLabel>
+        <skos:definition xml:lang="en">Piece of furniture designed for seating on.</skos:definition>
+        <skos:note xml:lang="en">"A thing made or used for sitting on, such as a chair or stool."
+https:www.lexico.comendefinitionseat
+2020 05 17</skos:note>
+        <skos:note xml:lang="en">"A seat is an object that you can sit on, for example a chair."
+https:www.collinsdictionary.comdictionaryenglishseat
+2020 05 17</skos:note>
+        <rdfs:label xml:lang="gr">κάθισμα</rdfs:label>
+        <skos:prefLabel xml:lang="gr">κάθισμα</skos:prefLabel>
+        <skos:definition xml:lang="gr">Έπιπλο προορισμένο για να κάθεται κανείς.</skos:definition>
+        <rdfs:label xml:lang="zh">座位</rdfs:label>
+        <skos:prefLabel xml:lang="zh">座位</skos:prefLabel>
+        <owl:disjointWith rdf:resource="#Material"/>
+        <owl:disjointWith rdf:resource="#Part"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#seat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#madeOf"/>
+                <owl:someValuesFrom rdf:resource="#Material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#colour"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#material"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#weight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/Sièges.PNG"/>
+        <skos:broadMatch rdf:resource="http:erlangen-crm.org170309E22_Man-Made_Object"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiSi%C3%A8ge"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300037769"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_for_one_person">
+        <rdfs:subClassOf rdf:resource="#Seat"/>
+        <owl:disjointWith rdf:resource="#Seat_for_several_people"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#for_one_person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#A">
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_with_feet_for_one_person_with_back">
+        <rdfs:label xml:lang="zh">椅子</rdfs:label>
+        <skos:prefLabel xml:lang="zh">椅子</skos:prefLabel>
+        <rdfs:subClassOf rdf:resource="#Seat_with_feet_for_one_person"/>
+        <owl:disjointWith rdf:resource="#Seat_with_feet_for_one_person_without_arms_without_back"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#with_back"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Part">
+        <owl:disjointWith rdf:resource="#Material"/>
+        <owl:disjointWith rdf:resource="#Seat"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#partie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_with_feet_for_several_people_without_back_without_arms">
+        <rdfs:label xml:lang="fr">banc</rdfs:label>
+        <skos:prefLabel xml:lang="fr">banc</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège pour plusieurs personnes, avec pieds, sans dossier, sans bras.</skos:definition>
+        <skos:note xml:lang="fr">Siège allongé, avec ou sans dossier, sur lequel plusieurs personnes peuvent s'asseoir en même temps. Source : TLFi 02062017</skos:note>
+        <skos:example xml:lang="fr">"Le roi portait un chapeau rond, la ganse enrichie de perles, et surmonté d'un gros diamant connu sous le nom de Pitt. Chacun était assis sur un fauteuil, une chaise, un banc, un tabouret, selon son rang ou sa dignité; ..." ERCKMANN-CHATRIAN, Histoire d'un paysan, t. 1, 1870, p. 219. Source : TLFi 02062017</skos:example>
+        <rdfs:label xml:lang="en">bench</rdfs:label>
+        <skos:prefLabel xml:lang="en">bench</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat with feet, for several people, without back, without arms.</skos:definition>
+        <skos:note xml:lang="en">"A bench is a long seat of wood or metal that two or more people can sit on."
+https:www.collinsdictionary.comdictionaryenglishbench
+2020 05 17</skos:note>
+        <rdfs:label xml:lang="zh">长凳</rdfs:label>
+        <skos:prefLabel xml:lang="zh">长凳</skos:prefLabel>
+        <rdfs:subClassOf rdf:resource="#Seat_with_feet_for_several_people"/>
+        <owl:disjointWith rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#without_back"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#without_arms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/BancVersailles.PNG"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300038494"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiBanc_(si%C3%A8ge)"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_with_feet_for_several_people">
+        <rdfs:subClassOf rdf:resource="#Seat_for_several_people"/>
+        <rdfs:subClassOf rdf:resource="#Seat_with_feet"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Material_naturel">
+        <rdfs:subClassOf rdf:resource="#Material"/>
+        <owl:disjointWith rdf:resource="#Material_artificiel"/>
+        <owl:disjointWith rdf:resource="#Material_composite"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#naturel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Material_artificiel">
+        <rdfs:subClassOf rdf:resource="#Material"/>
+        <owl:disjointWith rdf:resource="#Material_composite"/>
+        <owl:disjointWith rdf:resource="#Material_naturel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#artificiel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_without_feet">
+        <rdfs:subClassOf rdf:resource="#Seat"/>
+        <owl:disjointWith rdf:resource="#Seat_with_feet"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#without_feet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_with_feet_for_one_person_without_arms_without_back">
+        <rdfs:label xml:lang="fr">tabouret</rdfs:label>
+        <skos:prefLabel xml:lang="fr">tabouret</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège pour une personne, avec pieds, sans bras, sans dossier.</skos:definition>
+        <skos:note xml:lang="fr">Siège pour une personne, généralement à quatre pieds, sans bras ni dossier. TLFi 02062017</skos:note>
+        <skos:example xml:lang="fr">"Je n'ai jamais su m'asseoir dans un fauteuil (...). J'y suis tout raide. Ce qu'il me faut, c'est une chaise, ou un bon tabouret. Plutôt la chaise; pour les reins; le tabouret quand j'étais jeune (PÉGUY, V.-M., comte Hugo, 1910, p. 670)." TLFi 02062017</skos:example>
+        <rdfs:label xml:lang="en">stool</rdfs:label>
+        <skos:prefLabel xml:lang="en">stool</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat with feet, for one person, without arms, without back.</skos:definition>
+        <skos:note xml:lang="en">"A stool is a seat with legs but no support for your arms or back."
+https:www.collinsdictionary.comdictionaryenglishstool
+2020 05 17</skos:note>
+        <rdfs:subClassOf rdf:resource="#Seat_with_feet_for_one_person"/>
+        <owl:disjointWith rdf:resource="#Seat_with_feet_for_one_person_with_back"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#without_arms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#without_back"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <foaf:depiction rdf:resource="http://ontologia.fr/Images/Seat/Tabouret.PNG"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiTabouret"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300038418"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Material_naturel_végétal">
+        <rdfs:subClassOf rdf:resource="#Material_naturel"/>
+        <owl:disjointWith rdf:resource="#Material_naturel_minéral"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#végétal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_with_feet">
+        <rdfs:subClassOf rdf:resource="#Seat"/>
+        <owl:disjointWith rdf:resource="#Seat_without_feet"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#with_feet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Feet">
+        <rdfs:subClassOf rdf:resource="#Part"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_with_feet_for_one_person_with_back_without_arms">
+        <rdfs:label xml:lang="fr">chaise</rdfs:label>
+        <skos:prefLabel xml:lang="fr">chaise</skos:prefLabel>
+        <skos:definition xml:lang="fr">Siège avec pieds, pour une personne, avec dossier, sans bras.</skos:definition>
+        <skos:note xml:lang="fr">Siège à dossier et généralement sans bras. Source : TLFi 31052017</skos:note>
+        <skos:example xml:lang="fr">"Les cafés à l'entour avaient depuis longtemps couché sur leurs tables de marbre leurs chaises tendrement rabotées par des derrières peu soucieux de voyages. QUENEAU, Pierrot mon ami, 1942, p. 199." Source : TLFi 31052017</skos:example>
+        <rdfs:label xml:lang="fr">chaise d'intérieur</rdfs:label>
+        <skos:altLabel xml:lang="fr">chaise d'intérieur</skos:altLabel>
+        <skos:definition xml:lang="fr">Siège avec dossier, pour une personne, avec pieds, sans bras.</skos:definition>
+        <rdfs:label xml:lang="en">chair</rdfs:label>
+        <skos:prefLabel xml:lang="en">chair</skos:prefLabel>
+        <skos:definition xml:lang="en">Seat with feet, for one person, with back, without arms.</skos:definition>
+        <skos:note xml:lang="en">"A chair is a piece of furniture for one person to sit on. Chairs have a back and four legs."
+https:www.collinsdictionary.comdictionaryenglishchair
+2020 05 17</skos:note>
+        <skos:example xml:lang="en">‘Cafe tables and chairs face a bench seat below a lowered ceiling that curves for an atmospheric effect.’
+https:www.lexico.comdefinitionchair</skos:example>
+        <rdfs:label xml:lang="gr">καρέκλα</rdfs:label>
+        <skos:prefLabel xml:lang="gr">καρέκλα</skos:prefLabel>
+        <skos:definition xml:lang="gr">Κάθισμα για ένα άτομο, χωρίς μπράτσα, με πλάτη και πόδια. </skos:definition>
+        <rdfs:subClassOf rdf:resource="#Seat_with_feet_for_one_person_with_back"/>
+        <owl:disjointWith rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#without_arms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasPart"/>
+                <owl:someValuesFrom rdf:resource="#Part"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ch%C3%A2teau_de_Versailles%2C_appartement_du_Dauphin%2C_grand_cabinet_du_Dauphin%2C_chaises.jpg/800px-Ch%C3%A2teau_de_Versailles%2C_appartement_du_Dauphin%2C_grand_cabinet_du_Dauphin%2C_chaises.jpg"/>
+        <skos:exactMatch rdf:resource="http:vocab.getty.edupageaat300037772"/>
+        <rdfs:seeAlso rdf:resource="https:fr.wikipedia.orgwikiChaise"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Material">
+        <rdfs:label xml:lang="en">material</rdfs:label>
+        <skos:prefLabel xml:lang="en">material</skos:prefLabel>
+        <owl:disjointWith rdf:resource="#Part"/>
+        <owl:disjointWith rdf:resource="#Seat"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#matière"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Seat_for_several_people">
+        <rdfs:subClassOf rdf:resource="#Seat"/>
+        <owl:disjointWith rdf:resource="#Seat_for_one_person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#for_several_people"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Material_composite">
+        <rdfs:subClassOf rdf:resource="#Material"/>
+        <owl:disjointWith rdf:resource="#Material_artificiel"/>
+        <owl:disjointWith rdf:resource="#Material_naturel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#ownDifference"/>
+                <owl:hasValue rdf:resource="#composite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+	<!--  OWL Individuals -->
+
+    <owl:NamedIndividual rdf:about="#Chaise_F_263">
+        <rdfs:label xml:lang="en">Chaise F 263</rdfs:label>
+        <skos:prefLabel xml:lang="en">Chaise F 263</skos:prefLabel>
+        <rdf:type rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+        <skos:note>Fig. 6 : Benoît-François Boulard, chaise, 1806, bois doré. Paris, Mobilier national, F 263.
+https:journals.openedition.orgcrcv13475?lang=en
+Photo : © Collection du Mobilier national  Isabelle Bideau</skos:note>
+        <foaf:depiction rdf:resource="https://journals.openedition.org/crcv/docannexe/image/13475/img-6-small580.jpg"/>
+        <rdfs:seeAlso rdf:resource="https://journals.openedition.org/crcv/13475?lang=en"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Canapé_T_504_C">
+        <rdfs:label xml:lang="en">Canapé T 504 C</rdfs:label>
+        <skos:prefLabel xml:lang="en">Canapé T 504 C</skos:prefLabel>
+        <rdf:type rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+        <skos:note>Fig. 10 : Sulpice Brizard, canapé, vers 1780, bois peint. Versailles, musée national des châteaux de Versailles et de Trianon, T 504 C. D’après Les sièges des palais et musée nationaux, du Musée des arts décoratifs et de collections particulières, Paris, Moreau  Guérinet, s. d.
+Photo : reproduction Christophe Fouin</skos:note>
+        <foaf:depiction rdf:resource="https://journals.openedition.org/crcv/docannexe/image/13475/img-10-small480.jpg"/>
+        <rdfs:seeAlso rdf:resource="https://journals.openedition.org/crcv/13475?lang=en"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Fauteuil_T_505_C">
+        <rdfs:label xml:lang="en">Fauteuil T 505 C</rdfs:label>
+        <skos:prefLabel xml:lang="en">Fauteuil T 505 C</skos:prefLabel>
+        <rdf:type rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+        <skos:note>Fig. 11 : Jean-Baptiste Lelarge, bergère, vers 1780, bois peint. Versailles, musée national du château, T 505 C.
+Photo : © RMN-Grand Palais (château de Versailles)  Christophe Fouin</skos:note>
+        <foaf:depiction rdf:resource="https://journals.openedition.org/crcv/docannexe/image/13475/img-11.jpg"/>
+        <rdfs:seeAlso rdf:resource="https://journals.openedition.org/crcv/13475?lang=en"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Tabouret_S_574">
+        <rdfs:label xml:lang="en">Tabouret S 574</rdfs:label>
+        <skos:prefLabel xml:lang="en">Tabouret S 574</skos:prefLabel>
+        <rdf:type rdf:resource="#Seat_with_feet_for_one_person_without_arms_without_back"/>
+        <skos:note>Fig. 7 : Benoît-François Boulard, tabouret de pied, 1825, bois avec ornements en pâte moulée appliquée et dorée. Paris, Mobilier national, S 574.
+https:journals.openedition.orgcrcv13475?lang=en
+Photo : © Collection du Mobilier national  Isabelle Bideau</skos:note>
+        <foaf:depiction rdf:resource="https://journals.openedition.org/crcv/docannexe/image/13475/img-7-small580.jpg"/>
+        <rdfs:seeAlso rdf:resource="https://journals.openedition.org/crcv/13475?lang=en"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Canapé_GMT_21269">
+        <rdfs:label xml:lang="en">Canapé GMT 21269</rdfs:label>
+        <skos:prefLabel xml:lang="en">Canapé GMT 21269</skos:prefLabel>
+        <rdf:type rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+        <skos:note>Fig. 3 : Jean-Baptiste Boulard, causeuse, vers 1780-1785, bois doré. Paris, Mobilier national, GMT 21269.
+https:journals.openedition.orgcrcv13475?lang=en
+Photo : © Collection du Mobilier national  Isabelle Bideau</skos:note>
+        <foaf:depiction rdf:resource="https://journals.openedition.org/crcv/docannexe/image/13475/img-3-small480.jpg"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Fauteuil_T_506_C">
+        <rdfs:label xml:lang="en">Fauteuil T 506 C</rdfs:label>
+        <skos:prefLabel xml:lang="en">Fauteuil T 506 C</skos:prefLabel>
+        <rdf:type rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+        <skos:note>Fig. 12 : Jean-Baptiste Lelarge, fauteuil, vers 1780, bois peint. Versailles, musée national du château, T 506 C.
+https:journals.openedition.orgcrcv13475?lang=en
+Photo : © RMN-Grand Palais (château de Versailles)  Christophe Fouin</skos:note>
+        <foaf:depiction rdf:resource="https://journals.openedition.org/crcv/docannexe/image/13475/img-12.jpg"/>
+        <rdfs:seeAlso rdf:resource="https://journals.openedition.org/crcv/13475?lang=en"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Fauteuil_F_914_C">
+        <rdfs:label xml:lang="en">Fauteuil F 914 C</rdfs:label>
+        <skos:prefLabel xml:lang="en">Fauteuil F 914 C</skos:prefLabel>
+        <rdf:type rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+        <skos:note>Fig. 5 : Georges Jacob, fauteuil, vers 1780, bois doré. Fontainebleau, musée national du château, F 914 C.
+https:journals.openedition.orgcrcv13475?lang=en
+Photo : © RMN-Grand Palais (château de Fontainebleau)  Jean-Pierre Lagiewski</skos:note>
+        <foaf:depiction rdf:resource="https://journals.openedition.org/crcv/docannexe/image/13475/img-5.jpg"/>
+        <rdfs:seeAlso rdf:resource="https://journals.openedition.org/crcv/13475?lang=en"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Chaise_T_507_C">
+        <rdfs:label xml:lang="en">Chaise T 507 C</rdfs:label>
+        <skos:prefLabel xml:lang="en">Chaise T 507 C</skos:prefLabel>
+        <rdf:type rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+        <skos:note>Fig. 13 : Chaise, 1809, bois peint. Versailles, musée national du château, T 507 C.
+https:journals.openedition.orgcrcv13475?lang=en
+Photo : © RMN-Grand Palais (château de Versailles)  Christophe Fouin</skos:note>
+        <foaf:depiction rdf:resource="https://journals.openedition.org/crcv/docannexe/image/13475/img-13-small480.jpg"/>
+        <rdfs:seeAlso rdf:resource="https://journals.openedition.org/crcv/13475?lang=en"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Tabouret_GMT_14146">
+        <rdfs:label xml:lang="en">Tabouret GMT 1414/6</rdfs:label>
+        <skos:prefLabel xml:lang="en">Tabouret GMT 14146</skos:prefLabel>
+        <rdf:type rdf:resource="#Seat_with_feet_for_one_person_without_arms_without_back"/>
+        <skos:note>Fig. 9 : Benoît-François Boulard, tabouret, 1806, bois doré. Paris, Mobilier national, GMT 14146.
+https:journals.openedition.orgcrcv13475?lang=en</skos:note>
+        <foaf:depiction rdf:resource="https://journals.openedition.org/crcv/docannexe/image/13475/img-9-small480.jpg"/>
+        <rdfs:seeAlso rdf:resource="https://journals.openedition.org/crcv/13475?lang=en"/>
+    </owl:NamedIndividual>
+
+	<!-- 
+	//////////////////////////////////////////////////////////
+	//
+	// OntoLex-Lemon
+	//
+	//////////////////////////////////////////////////////////
+	-->
+
+    <ontolex:LexicalEntry rdf:about="#chaise_fr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_chaise_fr">
+                <ontolex:writtenRep xml:lang="fr">chaise</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_chaise_fr">
+                <ontolex:isEvokedBy rdf:resource="#chaise_fr"/>
+                <skos:definition xml:lang="fr">Siège avec pieds, pour une personne, avec dossier, sans bras.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#banc_fr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_banc_fr">
+                <ontolex:writtenRep xml:lang="fr">banc</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_banc_fr">
+                <ontolex:isEvokedBy rdf:resource="#banc_fr"/>
+                <skos:definition xml:lang="fr">Siège pour plusieurs personnes, avec pieds, sans dossier, sans bras.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_several_people_without_back_without_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#fauteuil_fr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_fauteuil_fr">
+                <ontolex:writtenRep xml:lang="fr">fauteuil</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_fauteuil_fr">
+                <ontolex:isEvokedBy rdf:resource="#fauteuil_fr"/>
+                <skos:definition xml:lang="fr">Siège avec dossier, pour une personne, avec pieds, avec bras.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#tabouret_fr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_tabouret_fr">
+                <ontolex:writtenRep xml:lang="fr">tabouret</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_tabouret_fr">
+                <ontolex:isEvokedBy rdf:resource="#tabouret_fr"/>
+                <skos:definition xml:lang="fr">Siège pour une personne, avec pieds, sans bras, sans dossier.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_without_arms_without_back"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#canapé_fr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_canapé_fr">
+                <ontolex:writtenRep xml:lang="fr">canapé</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_canapé_fr">
+                <ontolex:isEvokedBy rdf:resource="#canapé_fr"/>
+                <skos:definition xml:lang="fr">Siège pour plusieurs personnes, avec pieds, avec bras, avec dossier.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#chaise_d'intérieur_fr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_chaise_d'intérieur_fr">
+                <ontolex:writtenRep xml:lang="fr">chaise d'intérieur</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_chaise_d'intérieur_fr">
+                <ontolex:isEvokedBy rdf:resource="#chaise_d'intérieur_fr"/>
+                <skos:definition xml:lang="fr">Siège avec dossier, pour une personne, avec pieds, sans bras.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#bergère_fr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_bergère_fr">
+                <ontolex:writtenRep xml:lang="fr">bergère</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_bergère_fr">
+                <ontolex:isEvokedBy rdf:resource="#bergère_fr"/>
+                <skos:definition xml:lang="fr">Fauteuil large et profond, muni de joues pleines, dont le siège est pourvu d'un coussin.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#pouf_fr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_pouf_fr">
+                <ontolex:writtenRep xml:lang="fr">pouf</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_pouf_fr">
+                <ontolex:isEvokedBy rdf:resource="#pouf_fr"/>
+                <skos:definition xml:lang="fr">Siège pour une personne, sans pieds, sans bras, sans dossier.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_without_feet_for_one_person_without_arms_without_back"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#siège_fr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_siège_fr">
+                <ontolex:writtenRep xml:lang="fr">siège</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_siège_fr">
+                <ontolex:isEvokedBy rdf:resource="#siège_fr"/>
+                <skos:definition xml:lang="fr">Meuble où on s'assied.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#bench_en">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_bench_en">
+                <ontolex:writtenRep xml:lang="en">bench</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_bench_en">
+                <ontolex:isEvokedBy rdf:resource="#bench_en"/>
+                <skos:definition xml:lang="en">Seat with feet, for several people, without back, without arms.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_several_people_without_back_without_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#seat_en">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_seat_en">
+                <ontolex:writtenRep xml:lang="en">seat</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_seat_en">
+                <ontolex:isEvokedBy rdf:resource="#seat_en"/>
+                <skos:definition xml:lang="en">Piece of furniture designed for seating on.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#stool_en">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_stool_en">
+                <ontolex:writtenRep xml:lang="en">stool</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_stool_en">
+                <ontolex:isEvokedBy rdf:resource="#stool_en"/>
+                <skos:definition xml:lang="en">Seat with feet, for one person, without arms, without back.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_without_arms_without_back"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#ottoman_en">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_ottoman_en">
+                <ontolex:writtenRep xml:lang="en">ottoman</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_ottoman_en">
+                <ontolex:isEvokedBy rdf:resource="#ottoman_en"/>
+                <skos:definition xml:lang="en">Seat without feet, for one person, without arms, without back.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_without_feet_for_one_person_without_arms_without_back"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#material_en">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_material_en">
+                <ontolex:writtenRep xml:lang="en">material</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_material_en">
+                <ontolex:isEvokedBy rdf:resource="#material_en"/>
+                <skos:definition xml:lang="en"></skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Material"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#armchair_en">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_armchair_en">
+                <ontolex:writtenRep xml:lang="en">armchair</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_armchair_en">
+                <ontolex:isEvokedBy rdf:resource="#armchair_en"/>
+                <skos:definition xml:lang="en">Seat with feet, for one person, with back, with arms.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#elbow_chair_en">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_elbow_chair_en">
+                <ontolex:writtenRep xml:lang="en">elbow chair</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_elbow_chair_en">
+                <ontolex:isEvokedBy rdf:resource="#elbow_chair_en"/>
+                <skos:definition xml:lang="en">Seat with feet, for one person, with back, with arms.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#chair_en">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_chair_en">
+                <ontolex:writtenRep xml:lang="en">chair</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_chair_en">
+                <ontolex:isEvokedBy rdf:resource="#chair_en"/>
+                <skos:definition xml:lang="en">Seat with feet, for one person, with back, without arms.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#couch_en">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_couch_en">
+                <ontolex:writtenRep xml:lang="en">couch</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_couch_en">
+                <ontolex:isEvokedBy rdf:resource="#couch_en"/>
+                <skos:definition xml:lang="en">Seat with feet, for several people, with arms, with back.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#καναπές_gr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_καναπές_gr">
+                <ontolex:writtenRep xml:lang="gr">καναπές</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_καναπές_gr">
+                <ontolex:isEvokedBy rdf:resource="#καναπές_gr"/>
+                <skos:definition xml:lang="gr">Κάθισμα για περισσότερα από ένα άτομα, με μπράτσα, πλάτη και πόδια. </skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#κάθισμα_gr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_κάθισμα_gr">
+                <ontolex:writtenRep xml:lang="gr">κάθισμα</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_κάθισμα_gr">
+                <ontolex:isEvokedBy rdf:resource="#κάθισμα_gr"/>
+                <skos:definition xml:lang="gr">Έπιπλο προορισμένο για να κάθεται κανείς.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#πολυθρόνα_gr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_πολυθρόνα_gr">
+                <ontolex:writtenRep xml:lang="gr">πολυθρόνα</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_πολυθρόνα_gr">
+                <ontolex:isEvokedBy rdf:resource="#πολυθρόνα_gr"/>
+                <skos:definition xml:lang="gr">Κάθισμα για ένα άτομο, με μπράτσο, πλάτη και πόδια.</skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#καρέκλα_gr">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_καρέκλα_gr">
+                <ontolex:writtenRep xml:lang="gr">καρέκλα</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_καρέκλα_gr">
+                <ontolex:isEvokedBy rdf:resource="#καρέκλα_gr"/>
+                <skos:definition xml:lang="gr">Κάθισμα για ένα άτομο, χωρίς μπράτσα, με πλάτη και πόδια. </skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#长凳_zh">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_长凳_zh">
+                <ontolex:writtenRep xml:lang="zh">长凳</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_长凳_zh">
+                <ontolex:isEvokedBy rdf:resource="#长凳_zh"/>
+                <skos:definition xml:lang="zh"></skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_several_people_without_back_without_arms"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#座位_zh">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_座位_zh">
+                <ontolex:writtenRep xml:lang="zh">座位</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_座位_zh">
+                <ontolex:isEvokedBy rdf:resource="#座位_zh"/>
+                <skos:definition xml:lang="zh"></skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#椅子_zh">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_椅子_zh">
+                <ontolex:writtenRep xml:lang="zh">椅子</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_椅子_zh">
+                <ontolex:isEvokedBy rdf:resource="#椅子_zh"/>
+                <skos:definition xml:lang="zh"></skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_one_person_with_back"/>
+    </ontolex:LexicalEntry>
+
+    <ontolex:LexicalEntry rdf:about="#长椅_zh">
+        <ontolex:lexicalForm>
+            <ontolex:Form rdf:about="#form_长椅_zh">
+                <ontolex:writtenRep xml:lang="zh">长椅</ontolex:writtenRep>
+            </ontolex:Form>
+        </ontolex:lexicalForm>
+        <ontolex:evokes>
+            <ontolex:LexicalConcept rdf:about="#lexical_concept_长椅_zh">
+                <ontolex:isEvokedBy rdf:resource="#长椅_zh"/>
+                <skos:definition xml:lang="zh"></skos:definition>
+            </ontolex:LexicalConcept>
+        </ontolex:evokes>
+        <ontolex:denotes rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+    </ontolex:LexicalEntry>
+
+
+<!-- *********************************************** -->
+<!-- ONTOTERMINOLOGY VOCABULARY (OTV) -->
+<!-- http://ontoterminology.com/ -->
+<!-- *********************************************** -->
+
+<!-- ***********************************************
+                     OTV CLASSES
+     *********************************************** -->
+
+<!-- Conceptual dimension -->
+
+<!-- CTT concepts are represented as OWL classes
+     and as instances of the OTVConcept  class -->
+
+<owl:Class rdf:about="http://www.ontologia.fr/OTB/otv#OTVCore">
+        <rdfs:label>OTVCore</rdfs:label>      
+        <rdfs:comment>The Generic Concept of OTV Concepts</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.ontologia.fr/OTB/otv#Concept">
+        <rdfs:label>Concept</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologia.fr/OTB/otv#OTVCore"/>     
+        <rdfs:comment>The class of OTV Concept</rdfs:comment>
+        <rdfs:comment>Les concepts sont des instances de la classe Concept</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#AxisOfAnalysis"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Relation"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Attribute"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Object"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#ProperName"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.ontologia.fr/OTB/otv#AxisOfAnalysis">
+        <rdfs:label>AxisOfAnalysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologia.fr/OTB/otv#OTVCore"/>     
+        <rdfs:comment>The class of OTV AxesOfAnalysis</rdfs:comment>
+        <rdfs:comment>Les axes d analyse sont des instances de la classe AxesOfAnalysis</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Relation"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Attribute"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Object"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#ProperName"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.ontologia.fr/OTB/otv#Difference">
+        <rdfs:label>Difference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologia.fr/OTB/otv#OTVCore"/>    
+        <rdfs:comment>The class of OTV Differences</rdfs:comment>
+       <rdfs:comment>Les différence sont des instances de la classe Difference</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#AxisOfAnalysis"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Relation"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Attribute"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Object"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#ProperName"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.ontologia.fr/OTB/otv#Relation">
+        <rdfs:label>Relation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologia.fr/OTB/otv#OTVCore"/>    
+        <rdfs:comment>The class of OTV Relations</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#AxisOfAnalysis"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Attribute"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Object"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#ProperName"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.ontologia.fr/OTB/otv#Attribute">
+        <rdfs:label>Attribute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologia.fr/OTB/otv#OTVCore"/>    
+        <rdfs:comment>The class of OTV Attributes</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#AxisOfAnalysis"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Relation"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Object"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#ProperName"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.ontologia.fr/OTB/otv#Object">
+        <rdfs:label>Object</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologia.fr/OTB/otv#OTVCore"/>
+        <rdfs:comment>The class of OTV Objects</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#AxisOfAnalysis"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Relation"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Attribute"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#ProperName"/>
+</owl:Class>
+
+<!-- Linguistic dimension -->
+
+<owl:Class rdf:about="http://www.ontologia.fr/OTB/otv#Term">
+ 	      <rdfs:label>Term</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologia.fr/OTB/otv#OTVCore"/>
+        <rdfs:comment>The class of OTV Terms</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#AxisOfAnalysis"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Relation"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Attribute"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Object"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#ProperName"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.ontologia.fr/OTB/otv#ProperName">
+        <rdfs:label>ProperName</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologia.fr/OTB/otv#OTVCore"/>
+        <rdfs:comment>The class of OTV ProperName</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#AxisOfAnalysis"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Relation"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Attribute"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Object"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+        <owl:disjointWith rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+</owl:Class>
+
+<!-- ***********************************************
+                     OTV OBJECT PROPERTIES
+     *********************************************** -->
+
+<!-- Conceptual dimension -->
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#isA">
+    <rdfs:label>isA</rdfs:label> 
+    <rdfs:comment>Generic relationship between 2 concepts</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+    <rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+    <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#ownDifference">
+  <rdfs:label>ownDifference</rdfs:label>
+  <rdfs:comment>Link a concept to one of its specific differences</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+    <rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#inheritedDifference">
+  <rdfs:label>inheritedDifference</rdfs:label>
+  <rdfs:comment>Link a concept to one of its inherited differences</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+    <rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#difference">
+  <rdfs:label>difference</rdfs:label>
+  <rdfs:comment>Link a concept to one of its differences either inherited or specific</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+    <rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#belongsToAxis">
+  <rdfs:label>belongsToAxis</rdfs:label>
+  <rdfs:comment>Indicate the axis of analysis to which the difference belongs</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+    <rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#AxisOfAnalysis"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#containsDifference">
+  <rdfs:label>containsDifference</rdfs:label>
+  <rdfs:comment>Indicate the differences which belongs to the axis of analysis</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#AxisOfAnalysis"/>
+    <rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#instanceOf">
+    <rdfs:label>instanceOf</rdfs:label> 
+    <rdfs:comment>instance relationship</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Object"/>
+    <rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+  <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:ObjectProperty>
+
+<!-- Relations between the 2 dimensions -->
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#denotedByTerm">
+    <rdfs:label>denotedByTerm</rdfs:label> 
+    <rdfs:comment>Link a concept to a term which denotes it</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+    <rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+  <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#denotedConcept">
+    <rdfs:label>denotedConcept</rdfs:label> 
+    <rdfs:comment>Property whose value is the OTV concept denoted by the term: &apos;a term is a verbal designation of a concept&apos; (ISO 1087)</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+    <rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+    <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#denotedByProperName">
+    <rdfs:label>denotedByProperName</rdfs:label>
+    <rdfs:comment>The denotedByPrperName property links an individual (object) to a proper name which denotes it</rdfs:comment>
+ 	<rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Object"/>
+ 	<rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#ProperName"/>
+    <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.ontologia.fr/OTB/otv#denotedObject">
+   	<rdfs:label>denotedObject</rdfs:label>
+    <rdfs:comment>Property whose value is the OTV object denoted by the proper name</rdfs:comment>
+ 	<rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#ProperName"/>
+ 	<rdfs:range rdf:resource="http://www.ontologia.fr/OTB/otv#Object"/>
+    <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:ObjectProperty>
+
+
+<!-- ***********************************************
+                      OTV ANNOTATION PROPERTIES
+       *********************************************** -->
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#conceptName">
+    <rdfs:label>conceptName</rdfs:label> 
+    <rdfs:comment>Name of the concept</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Concept"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#termName">
+    <rdfs:label>termName</rdfs:label> <!-- équivalent à rdfs:label -->
+    <rdfs:comment>String representing the term</rdfs:comment>
+ 	  <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+ 	  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+   	<rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#properName">
+ 	  <rdfs:label>properName</rdfs:label>
+    <rdfs:comment>String representing the proper name</rdfs:comment>
+ 	  <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#ProperName"/>
+ 	  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+   	<rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#language">
+ 	  <rdfs:label>language</rdfs:label>
+    <rdfs:comment>Property that denotes the language of the term</rdfs:comment>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.ontologia.fr/OTB/otv#Term"/>
+          <rdf:Description rdf:about="http://www.ontologia.fr/OTB/otv#ProperName"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+ 	  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+   	<rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#termStatus">
+	 <rdfs:label>termStatus</rdfs:label>
+    <rdfs:comment>Property that indicates the status of the term</rdfs:comment>
+ 	  <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+ 	  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+   	<rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#termDefinition">
+   <rdfs:label>termDefinition</rdfs:label>
+    <rdfs:comment>Defintion of the term in natural language</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#context">
+   <rdfs:label>context</rdfs:label>
+    <rdfs:comment>Context associated to the term</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+    <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#note">
+   <rdfs:label>note</rdfs:label>
+    <rdfs:comment>Note associated to the term</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+    <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#partOfSpeech">
+   <rdfs:label>partOfSpeech</rdfs:label>
+    <rdfs:comment>Part of Speech of the term</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#gender">
+   <rdfs:label>gender</rdfs:label>
+    <rdfs:comment>Gender of the term</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#Term"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#beginDate">
+    <rdfs:label>beginDate</rdfs:label>
+   	<rdfs:comment>Property that indicates the begin date of of an axis of analysis, concept, term, object</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#OTVCore"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+   	<rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.ontologia.fr/OTB/otv#endDate">
+	 <rdfs:label>endDate</rdfs:label>
+ 	  <rdfs:comment>Property that indicates the end date of of an axis of analysis, concept, term, object</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ontologia.fr/OTB/otv#OTVCore"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+   	<rdfs:isDefinedBy>http://www.ontologia.fr/OTB/otv.rdf</rdfs:isDefinedBy>
+</owl:AnnotationProperty>
+
+
+	<!-- 
+	//////////////////////////////////////////////////////////
+	//
+	// OTV
+	//
+	//////////////////////////////////////////////////////////
+	-->
+
+<!-- ONTOTERMINOLOGY
+
+	Ontoterminology: Ontoterminology of seats
+	Author: Christophe Roche
+	Creation date: 29 juin 2017
+	Export date: 1 avril 2024 time: 01:15:10
+	Generated by Tedi version: 3.7
+	http://ontoterminology.com/tedi -->
+
+	<!--  OTV Axes of Analysis and Differences -->
+
+    <!-- Axis of Analysis: Matière -->
+
+    <otv:AxisOfAnalysis rdf:about="#Matière">
+        <rdfs:label>Matière</rdfs:label>
+        <otv:containsDifference rdf:resource="#artificiel"/>
+        <otv:containsDifference rdf:resource="#composite"/>
+        <otv:containsDifference rdf:resource="#naturel"/>
+    </otv:AxisOfAnalysis>
+
+    <otv:Difference rdf:about="#artificiel">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>artificiel</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Matière"/>
+    </otv:Difference>
+
+    <otv:Difference rdf:about="#composite">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>composite</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Matière"/>
+    </otv:Difference>
+
+    <otv:Difference rdf:about="#naturel">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>naturel</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Matière"/>
+    </otv:Difference>
+
+    <!-- Axis of Analysis: Arm -->
+
+    <otv:AxisOfAnalysis rdf:about="#Arm">
+        <rdfs:label>Arm</rdfs:label>
+        <otv:containsDifference rdf:resource="#with_arms"/>
+        <otv:containsDifference rdf:resource="#without_arms"/>
+    </otv:AxisOfAnalysis>
+
+    <otv:Difference rdf:about="#with_arms">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>with arms</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Arm"/>
+    </otv:Difference>
+
+    <otv:Difference rdf:about="#without_arms">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>without arms</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Arm"/>
+    </otv:Difference>
+
+    <!-- Axis of Analysis: Back -->
+
+    <otv:AxisOfAnalysis rdf:about="#Back">
+        <rdfs:label>Back</rdfs:label>
+        <otv:containsDifference rdf:resource="#with_back"/>
+        <otv:containsDifference rdf:resource="#without_back"/>
+    </otv:AxisOfAnalysis>
+
+    <otv:Difference rdf:about="#with_back">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>with back</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Back"/>
+    </otv:Difference>
+
+    <otv:Difference rdf:about="#without_back">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>without back</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Back"/>
+    </otv:Difference>
+
+    <!-- Axis of Analysis: Végétal ou Minéral -->
+
+    <otv:AxisOfAnalysis rdf:about="#Végétal_ou_Minéral">
+        <rdfs:label>Végétal ou Minéral</rdfs:label>
+        <otv:containsDifference rdf:resource="#minéral"/>
+        <otv:containsDifference rdf:resource="#végétal"/>
+    </otv:AxisOfAnalysis>
+
+    <otv:Difference rdf:about="#minéral">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>minéral</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Végétal_ou_Minéral"/>
+    </otv:Difference>
+
+    <otv:Difference rdf:about="#végétal">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>végétal</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Végétal_ou_Minéral"/>
+    </otv:Difference>
+
+    <!-- Axis of Analysis: Person -->
+
+    <otv:AxisOfAnalysis rdf:about="#Person">
+        <rdfs:label>Person</rdfs:label>
+        <otv:containsDifference rdf:resource="#for_one_person"/>
+        <otv:containsDifference rdf:resource="#for_several_people"/>
+    </otv:AxisOfAnalysis>
+
+    <otv:Difference rdf:about="#for_one_person">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>for one person</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Person"/>
+    </otv:Difference>
+
+    <otv:Difference rdf:about="#for_several_people">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>for several people</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Person"/>
+    </otv:Difference>
+
+    <!-- Axis of Analysis: Category -->
+
+    <otv:AxisOfAnalysis rdf:about="#Category">
+        <rdfs:label>Category</rdfs:label>
+        <otv:containsDifference rdf:resource="#matière"/>
+        <otv:containsDifference rdf:resource="#partie"/>
+        <otv:containsDifference rdf:resource="#seat"/>
+    </otv:AxisOfAnalysis>
+
+    <otv:Difference rdf:about="#matière">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>matière</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Category"/>
+    </otv:Difference>
+
+    <otv:Difference rdf:about="#partie">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>partie</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Category"/>
+    </otv:Difference>
+
+    <otv:Difference rdf:about="#seat">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>seat</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Category"/>
+    </otv:Difference>
+
+    <!-- Axis of Analysis: Foot -->
+
+    <otv:AxisOfAnalysis rdf:about="#Foot">
+        <rdfs:label>Foot</rdfs:label>
+        <otv:containsDifference rdf:resource="#with_feet"/>
+        <otv:containsDifference rdf:resource="#without_feet"/>
+    </otv:AxisOfAnalysis>
+
+    <otv:Difference rdf:about="#with_feet">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>with feet</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Foot"/>
+    </otv:Difference>
+
+    <otv:Difference rdf:about="#without_feet">
+        <rdf:type rdf:resource="http://www.ontologia.fr/OTB/otv#Difference"/>
+        <rdfs:label>without feet</rdfs:label>
+        <otv:belongsToAxis rdf:resource="#Foot"/>
+    </otv:Difference>
+
+	<!--  OTV Relations -->
+
+    <otv:Relation rdf:about="#causal"/>
+    <otv:Relation rdf:about="#equivalentTo"/>
+    <otv:Relation rdf:about="#hasFunction"/>
+    <otv:Relation rdf:about="#hasPart"/>
+    <otv:Relation rdf:about="#madeOf"/>
+    <otv:Relation rdf:about="#relatedTo"/>
+    <otv:Relation rdf:about="#sequential"/>
+	<!--  OTV Attributes -->
+
+    <otv:Attribute rdf:about="#colour"/>
+    <otv:Attribute rdf:about="#material"/>
+    <otv:Attribute rdf:about="#weight"/>
+	<!--  OTV Concepts -->
+
+    <otv:Concept rdf:about="#Seat_with_feet_for_one_person">
+        <otv:conceptName>&lt;Seat with feet for one person&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat_for_one_person"/>
+        <otv:isA rdf:resource="#Seat_with_feet"/>
+        <otv:inheritedDifference rdf:resource="#for_one_person"/>
+        <otv:inheritedDifference rdf:resource="#with_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#for_one_person"/>
+        <otv:difference rdf:resource="#with_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_with_feet_for_one_person_with_back_with_arms">
+        <otv:conceptName>&lt;Seat with feet for one person with back with arms&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat_with_feet_for_one_person_with_back"/>
+        <otv:ownDifference rdf:resource="#with_arms"/>
+        <otv:inheritedDifference rdf:resource="#with_back"/>
+        <otv:inheritedDifference rdf:resource="#for_one_person"/>
+        <otv:inheritedDifference rdf:resource="#with_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#with_arms"/>
+        <otv:difference rdf:resource="#with_back"/>
+        <otv:difference rdf:resource="#for_one_person"/>
+        <otv:difference rdf:resource="#with_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+        <otv:denotedByTerm rdf:resource="#fauteuil_fr"/>
+        <otv:denotedByTerm rdf:resource="#bergère_fr"/>
+        <otv:denotedByTerm rdf:resource="#armchair_en"/>
+        <otv:denotedByTerm rdf:resource="#elbow_chair_en"/>
+        <otv:denotedByTerm rdf:resource="#πολυθρόνα_gr"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_without_feet_for_one_person_without_arms_without_back">
+        <otv:conceptName>&lt;Seat without feet for one person without arms without back&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat_for_one_person"/>
+        <otv:isA rdf:resource="#Seat_without_feet"/>
+        <otv:ownDifference rdf:resource="#without_arms"/>
+        <otv:ownDifference rdf:resource="#without_back"/>
+        <otv:inheritedDifference rdf:resource="#for_one_person"/>
+        <otv:inheritedDifference rdf:resource="#without_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#without_back"/>
+        <otv:difference rdf:resource="#without_arms"/>
+        <otv:difference rdf:resource="#for_one_person"/>
+        <otv:difference rdf:resource="#without_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+        <otv:denotedByTerm rdf:resource="#pouf_fr"/>
+        <otv:denotedByTerm rdf:resource="#ottoman_en"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Material_naturel_minéral">
+        <otv:conceptName>&lt;Material naturel minéral&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Material_naturel"/>
+        <otv:ownDifference rdf:resource="#minéral"/>
+        <otv:inheritedDifference rdf:resource="#naturel"/>
+        <otv:inheritedDifference rdf:resource="#matière"/>
+        <otv:difference rdf:resource="#minéral"/>
+        <otv:difference rdf:resource="#naturel"/>
+        <otv:difference rdf:resource="#matière"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_with_feet_for_several_people_with_arms_with_back">
+        <otv:conceptName>&lt;Seat with feet for several people with arms with back&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat_with_feet_for_several_people"/>
+        <otv:ownDifference rdf:resource="#with_arms"/>
+        <otv:ownDifference rdf:resource="#with_back"/>
+        <otv:inheritedDifference rdf:resource="#for_several_people"/>
+        <otv:inheritedDifference rdf:resource="#with_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#with_back"/>
+        <otv:difference rdf:resource="#with_arms"/>
+        <otv:difference rdf:resource="#for_several_people"/>
+        <otv:difference rdf:resource="#with_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+        <otv:denotedByTerm rdf:resource="#canapé_fr"/>
+        <otv:denotedByTerm rdf:resource="#couch_en"/>
+        <otv:denotedByTerm rdf:resource="#καναπές_gr"/>
+        <otv:denotedByTerm rdf:resource="#长椅_zh"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Back">
+        <otv:conceptName>&lt;Back&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Part"/>
+        <otv:inheritedDifference rdf:resource="#partie"/>
+        <otv:difference rdf:resource="#partie"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Arm">
+        <otv:conceptName>&lt;Arm&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Part"/>
+        <otv:inheritedDifference rdf:resource="#partie"/>
+        <otv:difference rdf:resource="#partie"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat">
+        <otv:conceptName>&lt;Seat&gt;</otv:conceptName>
+        <otv:ownDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#seat"/>
+        <otv:denotedByTerm rdf:resource="#siège_fr"/>
+        <otv:denotedByTerm rdf:resource="#seat_en"/>
+        <otv:denotedByTerm rdf:resource="#κάθισμα_gr"/>
+        <otv:denotedByTerm rdf:resource="#座位_zh"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_for_one_person">
+        <otv:conceptName>&lt;Seat for one person&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat"/>
+        <otv:ownDifference rdf:resource="#for_one_person"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#for_one_person"/>
+        <otv:difference rdf:resource="#seat"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#A">
+        <otv:conceptName>&lt;A&gt;</otv:conceptName>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_with_feet_for_one_person_with_back">
+        <otv:conceptName>&lt;Seat with feet for one person with back&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat_with_feet_for_one_person"/>
+        <otv:ownDifference rdf:resource="#with_back"/>
+        <otv:inheritedDifference rdf:resource="#for_one_person"/>
+        <otv:inheritedDifference rdf:resource="#with_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#with_back"/>
+        <otv:difference rdf:resource="#for_one_person"/>
+        <otv:difference rdf:resource="#with_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+        <otv:denotedByTerm rdf:resource="#椅子_zh"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Part">
+        <otv:conceptName>&lt;Part&gt;</otv:conceptName>
+        <otv:ownDifference rdf:resource="#partie"/>
+        <otv:difference rdf:resource="#partie"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_with_feet_for_several_people_without_back_without_arms">
+        <otv:conceptName>&lt;Seat with feet for several people without back without arms&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat_with_feet_for_several_people"/>
+        <otv:ownDifference rdf:resource="#without_back"/>
+        <otv:ownDifference rdf:resource="#without_arms"/>
+        <otv:inheritedDifference rdf:resource="#for_several_people"/>
+        <otv:inheritedDifference rdf:resource="#with_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#without_arms"/>
+        <otv:difference rdf:resource="#without_back"/>
+        <otv:difference rdf:resource="#for_several_people"/>
+        <otv:difference rdf:resource="#with_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+        <otv:denotedByTerm rdf:resource="#banc_fr"/>
+        <otv:denotedByTerm rdf:resource="#bench_en"/>
+        <otv:denotedByTerm rdf:resource="#长凳_zh"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_with_feet_for_several_people">
+        <otv:conceptName>&lt;Seat with feet for several people&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat_for_several_people"/>
+        <otv:isA rdf:resource="#Seat_with_feet"/>
+        <otv:inheritedDifference rdf:resource="#for_several_people"/>
+        <otv:inheritedDifference rdf:resource="#with_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#for_several_people"/>
+        <otv:difference rdf:resource="#with_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Material_naturel">
+        <otv:conceptName>&lt;Material naturel&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Material"/>
+        <otv:ownDifference rdf:resource="#naturel"/>
+        <otv:inheritedDifference rdf:resource="#matière"/>
+        <otv:difference rdf:resource="#naturel"/>
+        <otv:difference rdf:resource="#matière"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Material_artificiel">
+        <otv:conceptName>&lt;Material artificiel&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Material"/>
+        <otv:ownDifference rdf:resource="#artificiel"/>
+        <otv:inheritedDifference rdf:resource="#matière"/>
+        <otv:difference rdf:resource="#artificiel"/>
+        <otv:difference rdf:resource="#matière"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_without_feet">
+        <otv:conceptName>&lt;Seat without feet&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat"/>
+        <otv:ownDifference rdf:resource="#without_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#without_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_with_feet_for_one_person_without_arms_without_back">
+        <otv:conceptName>&lt;Seat with feet for one person without arms without back&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat_with_feet_for_one_person"/>
+        <otv:ownDifference rdf:resource="#without_arms"/>
+        <otv:ownDifference rdf:resource="#without_back"/>
+        <otv:inheritedDifference rdf:resource="#for_one_person"/>
+        <otv:inheritedDifference rdf:resource="#with_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#without_back"/>
+        <otv:difference rdf:resource="#without_arms"/>
+        <otv:difference rdf:resource="#for_one_person"/>
+        <otv:difference rdf:resource="#with_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+        <otv:denotedByTerm rdf:resource="#tabouret_fr"/>
+        <otv:denotedByTerm rdf:resource="#stool_en"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Material_naturel_végétal">
+        <otv:conceptName>&lt;Material naturel végétal&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Material_naturel"/>
+        <otv:ownDifference rdf:resource="#végétal"/>
+        <otv:inheritedDifference rdf:resource="#naturel"/>
+        <otv:inheritedDifference rdf:resource="#matière"/>
+        <otv:difference rdf:resource="#végétal"/>
+        <otv:difference rdf:resource="#naturel"/>
+        <otv:difference rdf:resource="#matière"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_with_feet">
+        <otv:conceptName>&lt;Seat with feet&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat"/>
+        <otv:ownDifference rdf:resource="#with_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#with_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Feet">
+        <otv:conceptName>&lt;Feet&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Part"/>
+        <otv:inheritedDifference rdf:resource="#partie"/>
+        <otv:difference rdf:resource="#partie"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_with_feet_for_one_person_with_back_without_arms">
+        <otv:conceptName>&lt;Seat with feet for one person with back without arms&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat_with_feet_for_one_person_with_back"/>
+        <otv:ownDifference rdf:resource="#without_arms"/>
+        <otv:inheritedDifference rdf:resource="#with_back"/>
+        <otv:inheritedDifference rdf:resource="#for_one_person"/>
+        <otv:inheritedDifference rdf:resource="#with_feet"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#without_arms"/>
+        <otv:difference rdf:resource="#with_back"/>
+        <otv:difference rdf:resource="#for_one_person"/>
+        <otv:difference rdf:resource="#with_feet"/>
+        <otv:difference rdf:resource="#seat"/>
+        <otv:denotedByTerm rdf:resource="#chaise_fr"/>
+        <otv:denotedByTerm rdf:resource="#chaise_d'intérieur_fr"/>
+        <otv:denotedByTerm rdf:resource="#chair_en"/>
+        <otv:denotedByTerm rdf:resource="#καρέκλα_gr"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Material">
+        <otv:conceptName>&lt;Material&gt;</otv:conceptName>
+        <otv:ownDifference rdf:resource="#matière"/>
+        <otv:difference rdf:resource="#matière"/>
+        <otv:denotedByTerm rdf:resource="#material_en"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Seat_for_several_people">
+        <otv:conceptName>&lt;Seat for several people&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Seat"/>
+        <otv:ownDifference rdf:resource="#for_several_people"/>
+        <otv:inheritedDifference rdf:resource="#seat"/>
+        <otv:difference rdf:resource="#for_several_people"/>
+        <otv:difference rdf:resource="#seat"/>
+    </otv:Concept>
+
+    <otv:Concept rdf:about="#Material_composite">
+        <otv:conceptName>&lt;Material composite&gt;</otv:conceptName>
+        <otv:isA rdf:resource="#Material"/>
+        <otv:ownDifference rdf:resource="#composite"/>
+        <otv:inheritedDifference rdf:resource="#matière"/>
+        <otv:difference rdf:resource="#composite"/>
+        <otv:difference rdf:resource="#matière"/>
+    </otv:Concept>
+
+	<!--  OTV Terms -->
+
+    <otv:Term rdf:about="#chaise_fr">
+        <rdfs:label xml:lang="fr">chaise</rdfs:label>
+        <otv:termName>chaise</otv:termName>
+        <otv:language>fr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Siège avec pieds, pour une personne, avec dossier, sans bras.</otv:termDefinition>
+        <skos:definition xml:lang="fr">Siège avec pieds, pour une personne, avec dossier, sans bras.</skos:definition>
+        <otv:note xml:lang="fr">Siège à dossier et généralement sans bras. Source : TLFi 31052017</otv:note>
+        <otv:context xml:lang="fr">"Les cafés à l'entour avaient depuis longtemps couché sur leurs tables de marbre leurs chaises tendrement rabotées par des derrières peu soucieux de voyages. QUENEAU, Pierrot mon ami, 1942, p. 199." Source : TLFi 31052017</otv:context>
+    </otv:Term>
+
+    <otv:Term rdf:about="#banc_fr">
+        <rdfs:label xml:lang="fr">banc</rdfs:label>
+        <otv:termName>banc</otv:termName>
+        <otv:language>fr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_several_people_without_back_without_arms"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Siège pour plusieurs personnes, avec pieds, sans dossier, sans bras.</otv:termDefinition>
+        <skos:definition xml:lang="fr">Siège pour plusieurs personnes, avec pieds, sans dossier, sans bras.</skos:definition>
+        <otv:note xml:lang="fr">Siège allongé, avec ou sans dossier, sur lequel plusieurs personnes peuvent s'asseoir en même temps. Source : TLFi 02062017</otv:note>
+        <otv:context xml:lang="fr">"Le roi portait un chapeau rond, la ganse enrichie de perles, et surmonté d'un gros diamant connu sous le nom de Pitt. Chacun était assis sur un fauteuil, une chaise, un banc, un tabouret, selon son rang ou sa dignité; ..." ERCKMANN-CHATRIAN, Histoire d'un paysan, t. 1, 1870, p. 219. Source : TLFi 02062017</otv:context>
+    </otv:Term>
+
+    <otv:Term rdf:about="#fauteuil_fr">
+        <rdfs:label xml:lang="fr">fauteuil</rdfs:label>
+        <otv:termName>fauteuil</otv:termName>
+        <otv:language>fr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Siège avec dossier, pour une personne, avec pieds, avec bras.</otv:termDefinition>
+        <skos:definition xml:lang="fr">Siège avec dossier, pour une personne, avec pieds, avec bras.</skos:definition>
+        <otv:note xml:lang="fr">Siège à dossier, généralement à bras, pour une personne, et dans lequel on est assis confortablement. Source : TLFi 02062017</otv:note>
+        <otv:note xml:lang="fr">"Term applied to a wide variety of chairs with arms, to distinguish them from side chairs which have no arms."
+Getty
+http:www.getty.eduvowAATFullDisplay?find=chair&amp;logic=AND&amp;note=&amp;english=N&amp;prev_page=1&amp;subjectid=300037776</otv:note>
+        <otv:context xml:lang="fr">"Assise à sa fenêtre, dans un grand fauteuil d'osier, Marthe rêvait" (MOSELLY, Terres lorr., 1907, p. 160). Source : TLFi 02062017</otv:context>
+    </otv:Term>
+
+    <otv:Term rdf:about="#tabouret_fr">
+        <rdfs:label xml:lang="fr">tabouret</rdfs:label>
+        <otv:termName>tabouret</otv:termName>
+        <otv:language>fr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_without_arms_without_back"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Siège pour une personne, avec pieds, sans bras, sans dossier.</otv:termDefinition>
+        <skos:definition xml:lang="fr">Siège pour une personne, avec pieds, sans bras, sans dossier.</skos:definition>
+        <otv:note xml:lang="fr">Siège pour une personne, généralement à quatre pieds, sans bras ni dossier. TLFi 02062017</otv:note>
+        <otv:context xml:lang="fr">"Je n'ai jamais su m'asseoir dans un fauteuil (...). J'y suis tout raide. Ce qu'il me faut, c'est une chaise, ou un bon tabouret. Plutôt la chaise; pour les reins; le tabouret quand j'étais jeune (PÉGUY, V.-M., comte Hugo, 1910, p. 670)." TLFi 02062017</otv:context>
+    </otv:Term>
+
+    <otv:Term rdf:about="#canapé_fr">
+        <rdfs:label xml:lang="fr">canapé</rdfs:label>
+        <otv:termName>canapé</otv:termName>
+        <otv:language>fr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Siège pour plusieurs personnes, avec pieds, avec bras, avec dossier.</otv:termDefinition>
+        <skos:definition xml:lang="fr">Siège pour plusieurs personnes, avec pieds, avec bras, avec dossier.</skos:definition>
+        <otv:note xml:lang="fr">Siège à dossier, pourvu d'accoudoirs, où plusieurs personnes peuvent s'asseoir, pouvant aussi servir de lit de repos pour une personne. TLFi 02062017</otv:note>
+        <otv:context xml:lang="fr">"Nous passâmes une heure ensemble, assis sur le même canapé, dans une grande pièce de la villa où il [Roosevelt] s'était installé. DE GAULLE, Mémoires de guerre, 1956, p. 79." TLFi 02062017</otv:context>
+    </otv:Term>
+
+    <otv:Term rdf:about="#chaise_d'intérieur_fr">
+        <rdfs:label xml:lang="fr">chaise d'intérieur</rdfs:label>
+        <otv:termName>chaise d'intérieur</otv:termName>
+        <otv:language>fr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+        <otv:termStatus>alternative</otv:termStatus>
+        <otv:partOfSpeech>alternative</otv:partOfSpeech>
+        <otv:gender>alternative</otv:gender>
+        <otv:termDefinition>Siège avec dossier, pour une personne, avec pieds, sans bras.</otv:termDefinition>
+        <skos:definition xml:lang="fr">Siège avec dossier, pour une personne, avec pieds, sans bras.</skos:definition>
+    </otv:Term>
+
+    <otv:Term rdf:about="#bergère_fr">
+        <rdfs:label xml:lang="fr">bergère</rdfs:label>
+        <otv:termName>bergère</otv:termName>
+        <otv:language>fr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+        <otv:termStatus>alternative</otv:termStatus>
+        <otv:partOfSpeech>alternative</otv:partOfSpeech>
+        <otv:gender>alternative</otv:gender>
+        <otv:termDefinition>Fauteuil large et profond, muni de joues pleines, dont le siège est pourvu d'un coussin.</otv:termDefinition>
+        <skos:definition xml:lang="fr">Fauteuil large et profond, muni de joues pleines, dont le siège est pourvu d'un coussin.</skos:definition>
+        <otv:note xml:lang="fr">Fauteuil large et profond, muni de joues pleines, dont le siège est pourvu d'un coussin. Source : TLFi 302092017</otv:note>
+        <otv:context xml:lang="fr">Elle les « couvrait » soigneusement [ses livres] puis, après avoir choisi l'un d'eux, s'installait près de la fenêtre, dans sa bergère à oreillettes, chaussait ses besicles, soupirait de bonheur et de lassitude, baissait les paupières avec un fin sourire voluptueux que j'ai retrouvé depuis sur les lèvres de la Joconde; ...
+SARTRE, Les Mots, 1964, p. 31.
+Source : TLFi 04052020</otv:context>
+    </otv:Term>
+
+    <otv:Term rdf:about="#pouf_fr">
+        <rdfs:label xml:lang="fr">pouf</rdfs:label>
+        <otv:termName>pouf</otv:termName>
+        <otv:language>fr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_without_feet_for_one_person_without_arms_without_back"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Siège pour une personne, sans pieds, sans bras, sans dossier.</otv:termDefinition>
+        <skos:definition xml:lang="fr">Siège pour une personne, sans pieds, sans bras, sans dossier.</skos:definition>
+        <otv:note xml:lang="fr">"Tabouret bas, généralement cylindrique, capitonné, sans bois apparent, pour une ou plusieurs personnes; gros coussin posé sur le sol." TLFi 2017-07-09</otv:note>
+        <otv:context xml:lang="fr">"Pouf marocain. Pour elle, la vie ne commence qu'aux lumières (...) parmi les parures et l'ondoiement des jupes lustrées, argentées, brodées, qui se froissent et s'étalent sur les poufs roses" (TAINE, Notes Paris, 1867, p.178). TLFi 2017-07-09</otv:context>
+    </otv:Term>
+
+    <otv:Term rdf:about="#siège_fr">
+        <rdfs:label xml:lang="fr">siège</rdfs:label>
+        <otv:termName>siège</otv:termName>
+        <otv:language>fr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Meuble où on s'assied.</otv:termDefinition>
+        <skos:definition xml:lang="fr">Meuble où on s'assied.</skos:definition>
+        <otv:note xml:lang="fr">"Meuble comprenant généralement quatre pieds, une partie horizontale où l'on s'assied et éventuellement un dossier et des accoudoirs." Source : TLFi 31052017</otv:note>
+        <otv:note xml:lang="fr">"Objet à usage domestique, fait pour s'asseoir, et qui meuble les différentes parties d'une maison ou de ses dépendances: pour une personne, à dossier (v. chaise), à dossier et accoudoir (v. bergère, fauteuil), sans accoudoir ni dossier (v. tabouret), sans pieds (v. pouf2), pour plusieurs personnes, sans dossier (v. banc), avec ou sans dossier (v. banquette, canapé)." Source : TLFi 31052017</otv:note>
+        <otv:note xml:lang="fr">"General term for any furniture intended for seating."
+Getty
+http:www.getty.eduvowAATFullDisplay?find=&amp;logic=AND&amp;note=&amp;subjectid=300037769</otv:note>
+        <otv:context xml:lang="fr">"Il s'aperçut alors de sa fatigue; il était resté debout trois ou quatre heures de suite. Il chercha un siège pour s'asseoir (MARTIN DU G., Thib., Pénitenc., 1922, p. 882)." Source : TLFi 31052017</otv:context>
+    </otv:Term>
+
+    <otv:Term rdf:about="#bench_en">
+        <rdfs:label xml:lang="en">bench</rdfs:label>
+        <otv:termName>bench</otv:termName>
+        <otv:language>en</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_several_people_without_back_without_arms"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Seat with feet, for several people, without back, without arms.</otv:termDefinition>
+        <skos:definition xml:lang="en">Seat with feet, for several people, without back, without arms.</skos:definition>
+        <otv:note xml:lang="en">"A bench is a long seat of wood or metal that two or more people can sit on."
+https:www.collinsdictionary.comdictionaryenglishbench
+2020 05 17</otv:note>
+    </otv:Term>
+
+    <otv:Term rdf:about="#seat_en">
+        <rdfs:label xml:lang="en">seat</rdfs:label>
+        <otv:termName>seat</otv:termName>
+        <otv:language>en</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Piece of furniture designed for seating on.</otv:termDefinition>
+        <skos:definition xml:lang="en">Piece of furniture designed for seating on.</skos:definition>
+        <otv:note xml:lang="en">"A thing made or used for sitting on, such as a chair or stool."
+https:www.lexico.comendefinitionseat
+2020 05 17</otv:note>
+        <otv:note xml:lang="en">"A seat is an object that you can sit on, for example a chair."
+https:www.collinsdictionary.comdictionaryenglishseat
+2020 05 17</otv:note>
+    </otv:Term>
+
+    <otv:Term rdf:about="#stool_en">
+        <rdfs:label xml:lang="en">stool</rdfs:label>
+        <otv:termName>stool</otv:termName>
+        <otv:language>en</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_without_arms_without_back"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Seat with feet, for one person, without arms, without back.</otv:termDefinition>
+        <skos:definition xml:lang="en">Seat with feet, for one person, without arms, without back.</skos:definition>
+        <otv:note xml:lang="en">"A stool is a seat with legs but no support for your arms or back."
+https:www.collinsdictionary.comdictionaryenglishstool
+2020 05 17</otv:note>
+    </otv:Term>
+
+    <otv:Term rdf:about="#ottoman_en">
+        <rdfs:label xml:lang="en">ottoman</rdfs:label>
+        <otv:termName>ottoman</otv:termName>
+        <otv:language>en</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_without_feet_for_one_person_without_arms_without_back"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Seat without feet, for one person, without arms, without back.</otv:termDefinition>
+        <skos:definition xml:lang="en">Seat without feet, for one person, without arms, without back.</skos:definition>
+        <otv:note xml:lang="en">(Wikipedia)
+In American English, an ottoman is a piece of furniture consisting of a padded, upholstered seat or bench, usually having neither a back nor arms, often used as a stool, footstool[2][3] or, in some cases, as a coffee table.[4] Ottomans are often sold as coordinating furniture with armchairs or gliders.[5] An ottoman can also be known as a footstool,[6] tuffet,[7] hassock,[8] "Sitee" or pouffe.[9][10] In British English, "ottoman" also denotes an upholstered seat without a back or arms, but one that usually serves as storage, with the seat hinged to form a lid.
+
+Ottomans can be used throughout the house, in the bedroom, gaming room, family room and guest room. Leather and bench ottomans are used as alternatives to sofas.
+
+https:en.wikipedia.orgwikiOttoman_(furniture)</otv:note>
+        <otv:note xml:lang="en">(Babelnet)
+A low seat or a stool to rest the feet of a seated person.
+http:babelnet.orgsynset?word=bn:00035743n&amp;details=1&amp;lang=EN&amp;orig=ottoman</otv:note>
+        <otv:note xml:lang="en">"An ottoman is a low, padded seat similar to a couch but without a back or arms."
+https:www.collinsdictionary.comdictionaryenglishottoman
+2020 05 17</otv:note>
+    </otv:Term>
+
+    <otv:Term rdf:about="#material_en">
+        <rdfs:label xml:lang="en">material</rdfs:label>
+        <otv:termName>material</otv:termName>
+        <otv:language>en</otv:language>
+        <otv:denotedConcept rdf:resource="#Material"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+    </otv:Term>
+
+    <otv:Term rdf:about="#armchair_en">
+        <rdfs:label xml:lang="en">armchair</rdfs:label>
+        <otv:termName>armchair</otv:termName>
+        <otv:language>en</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Seat with feet, for one person, with back, with arms.</otv:termDefinition>
+        <skos:definition xml:lang="en">Seat with feet, for one person, with back, with arms.</skos:definition>
+        <otv:note xml:lang="en">"An armchair is a big comfortable chair which has a support on each side for your arms."
+https:www.collinsdictionary.comdictionaryenglisharmchair
+2020 05 17</otv:note>
+    </otv:Term>
+
+    <otv:Term rdf:about="#elbow_chair_en">
+        <rdfs:label xml:lang="en">elbow chair</rdfs:label>
+        <otv:termName>elbow chair</otv:termName>
+        <otv:language>en</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+        <otv:termStatus>alternative</otv:termStatus>
+        <otv:partOfSpeech>alternative</otv:partOfSpeech>
+        <otv:gender>alternative</otv:gender>
+        <otv:termDefinition>Seat with feet, for one person, with back, with arms.</otv:termDefinition>
+        <skos:definition xml:lang="en">Seat with feet, for one person, with back, with arms.</skos:definition>
+    </otv:Term>
+
+    <otv:Term rdf:about="#chair_en">
+        <rdfs:label xml:lang="en">chair</rdfs:label>
+        <otv:termName>chair</otv:termName>
+        <otv:language>en</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Seat with feet, for one person, with back, without arms.</otv:termDefinition>
+        <skos:definition xml:lang="en">Seat with feet, for one person, with back, without arms.</skos:definition>
+        <otv:note xml:lang="en">"A chair is a piece of furniture for one person to sit on. Chairs have a back and four legs."
+https:www.collinsdictionary.comdictionaryenglishchair
+2020 05 17</otv:note>
+        <otv:context xml:lang="en">‘Cafe tables and chairs face a bench seat below a lowered ceiling that curves for an atmospheric effect.’
+https:www.lexico.comdefinitionchair</otv:context>
+    </otv:Term>
+
+    <otv:Term rdf:about="#couch_en">
+        <rdfs:label xml:lang="en">couch</rdfs:label>
+        <otv:termName>couch</otv:termName>
+        <otv:language>en</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Seat with feet, for several people, with arms, with back.</otv:termDefinition>
+        <skos:definition xml:lang="en">Seat with feet, for several people, with arms, with back.</skos:definition>
+        <otv:note xml:lang="en">"A couch is a long, comfortable seat for two or three people."
+https:www.collinsdictionary.comdictionaryenglishcouch
+2020 05 17</otv:note>
+    </otv:Term>
+
+    <otv:Term rdf:about="#καναπές_gr">
+        <rdfs:label xml:lang="gr">καναπές</rdfs:label>
+        <otv:termName>καναπές</otv:termName>
+        <otv:language>gr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Κάθισμα για περισσότερα από ένα άτομα, με μπράτσα, πλάτη και πόδια. </otv:termDefinition>
+        <skos:definition xml:lang="gr">Κάθισμα για περισσότερα από ένα άτομα, με μπράτσα, πλάτη και πόδια. </skos:definition>
+    </otv:Term>
+
+    <otv:Term rdf:about="#κάθισμα_gr">
+        <rdfs:label xml:lang="gr">κάθισμα</rdfs:label>
+        <otv:termName>κάθισμα</otv:termName>
+        <otv:language>gr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Έπιπλο προορισμένο για να κάθεται κανείς.</otv:termDefinition>
+        <skos:definition xml:lang="gr">Έπιπλο προορισμένο για να κάθεται κανείς.</skos:definition>
+    </otv:Term>
+
+    <otv:Term rdf:about="#πολυθρόνα_gr">
+        <rdfs:label xml:lang="gr">πολυθρόνα</rdfs:label>
+        <otv:termName>πολυθρόνα</otv:termName>
+        <otv:language>gr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Κάθισμα για ένα άτομο, με μπράτσο, πλάτη και πόδια.</otv:termDefinition>
+        <skos:definition xml:lang="gr">Κάθισμα για ένα άτομο, με μπράτσο, πλάτη και πόδια.</skos:definition>
+    </otv:Term>
+
+    <otv:Term rdf:about="#καρέκλα_gr">
+        <rdfs:label xml:lang="gr">καρέκλα</rdfs:label>
+        <otv:termName>καρέκλα</otv:termName>
+        <otv:language>gr</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+        <otv:termDefinition>Κάθισμα για ένα άτομο, χωρίς μπράτσα, με πλάτη και πόδια. </otv:termDefinition>
+        <skos:definition xml:lang="gr">Κάθισμα για ένα άτομο, χωρίς μπράτσα, με πλάτη και πόδια. </skos:definition>
+    </otv:Term>
+
+    <otv:Term rdf:about="#长凳_zh">
+        <rdfs:label xml:lang="zh">长凳</rdfs:label>
+        <otv:termName>长凳</otv:termName>
+        <otv:language>zh</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_several_people_without_back_without_arms"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+    </otv:Term>
+
+    <otv:Term rdf:about="#座位_zh">
+        <rdfs:label xml:lang="zh">座位</rdfs:label>
+        <otv:termName>座位</otv:termName>
+        <otv:language>zh</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+    </otv:Term>
+
+    <otv:Term rdf:about="#椅子_zh">
+        <rdfs:label xml:lang="zh">椅子</rdfs:label>
+        <otv:termName>椅子</otv:termName>
+        <otv:language>zh</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_one_person_with_back"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+    </otv:Term>
+
+    <otv:Term rdf:about="#长椅_zh">
+        <rdfs:label xml:lang="zh">长椅</rdfs:label>
+        <otv:termName>长椅</otv:termName>
+        <otv:language>zh</otv:language>
+        <otv:denotedConcept rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+        <otv:termStatus>preferred</otv:termStatus>
+        <otv:partOfSpeech>preferred</otv:partOfSpeech>
+        <otv:gender>preferred</otv:gender>
+    </otv:Term>
+
+	<!--  OTV Proper Names -->
+
+    <otv:ProperName rdf:about="#Canapé_T_504_C_fr">
+        <otv:properName>Canapé T 504 C</otv:properName>
+        <otv:language>fr</otv:language>
+        <otv:denotedObject rdf:resource="#Canapé_T_504_C"/>
+    </otv:ProperName>
+
+    <otv:ProperName rdf:about="#Chaise_Calvet_fr">
+        <otv:properName>Chaise Calvet</otv:properName>
+        <otv:language>fr</otv:language>
+    </otv:ProperName>
+
+    <otv:ProperName rdf:about="#Chaise_T_507_C_fr">
+        <otv:properName>Chaise T 507 C</otv:properName>
+        <otv:language>fr</otv:language>
+        <otv:denotedObject rdf:resource="#Chaise_T_507_C"/>
+    </otv:ProperName>
+
+    <otv:ProperName rdf:about="#Canapé_GMT_21269_fr">
+        <otv:properName>Canapé GMT 21269</otv:properName>
+        <otv:language>fr</otv:language>
+        <otv:denotedObject rdf:resource="#Canapé_GMT_21269"/>
+    </otv:ProperName>
+
+    <otv:ProperName rdf:about="#Chaise_F_263_fr">
+        <otv:properName>Chaise F 263</otv:properName>
+        <otv:language>fr</otv:language>
+        <otv:denotedObject rdf:resource="#Chaise_F_263"/>
+    </otv:ProperName>
+
+    <otv:ProperName rdf:about="#Couch_T_504_C_en">
+        <otv:properName>Couch T 504 C</otv:properName>
+        <otv:language>en</otv:language>
+        <otv:denotedObject rdf:resource="#Canapé_T_504_C"/>
+    </otv:ProperName>
+
+    <otv:ProperName rdf:about="#Couch_GMT_21269_en">
+        <otv:properName>Couch GMT 21269</otv:properName>
+        <otv:language>en</otv:language>
+        <otv:denotedObject rdf:resource="#Canapé_GMT_21269"/>
+    </otv:ProperName>
+
+    <otv:ProperName rdf:about="#Chair_T_507_C_en">
+        <otv:properName>Chair T 507 C</otv:properName>
+        <otv:language>en</otv:language>
+        <otv:denotedObject rdf:resource="#Chaise_T_507_C"/>
+    </otv:ProperName>
+
+    <otv:ProperName rdf:about="#Chair_F_263_en">
+        <otv:properName>Chair F 263</otv:properName>
+        <otv:language>en</otv:language>
+        <otv:denotedObject rdf:resource="#Chaise_F_263"/>
+    </otv:ProperName>
+
+	<!--  OTV Individuals -->
+
+    <otv:Object rdf:about="#Chaise_F_263">
+        <otv:instanceOf rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+        <otv:denotedByProperName rdf:resource="#Chaise_F_263_fr"/>
+        <otv:denotedByProperName rdf:resource="#Chair_F_263_en"/>
+    </otv:Object>
+
+    <otv:Object rdf:about="#Canapé_T_504_C">
+        <otv:instanceOf rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+        <otv:denotedByProperName rdf:resource="#Canapé_T_504_C_fr"/>
+        <otv:denotedByProperName rdf:resource="#Couch_T_504_C_en"/>
+    </otv:Object>
+
+    <otv:Object rdf:about="#Fauteuil_T_505_C">
+        <otv:instanceOf rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+    </otv:Object>
+
+    <otv:Object rdf:about="#Tabouret_S_574">
+        <otv:instanceOf rdf:resource="#Seat_with_feet_for_one_person_without_arms_without_back"/>
+    </otv:Object>
+
+    <otv:Object rdf:about="#Canapé_GMT_21269">
+        <otv:instanceOf rdf:resource="#Seat_with_feet_for_several_people_with_arms_with_back"/>
+        <otv:denotedByProperName rdf:resource="#Canapé_GMT_21269_fr"/>
+        <otv:denotedByProperName rdf:resource="#Couch_GMT_21269_en"/>
+    </otv:Object>
+
+    <otv:Object rdf:about="#Fauteuil_T_506_C">
+        <otv:instanceOf rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+    </otv:Object>
+
+    <otv:Object rdf:about="#Fauteuil_F_914_C">
+        <otv:instanceOf rdf:resource="#Seat_with_feet_for_one_person_with_back_with_arms"/>
+    </otv:Object>
+
+    <otv:Object rdf:about="#Chaise_T_507_C">
+        <otv:instanceOf rdf:resource="#Seat_with_feet_for_one_person_with_back_without_arms"/>
+        <otv:denotedByProperName rdf:resource="#Chaise_T_507_C_fr"/>
+        <otv:denotedByProperName rdf:resource="#Chair_T_507_C_en"/>
+    </otv:Object>
+
+    <otv:Object rdf:about="#Tabouret_GMT_14146">
+        <otv:instanceOf rdf:resource="#Seat_with_feet_for_one_person_without_arms_without_back"/>
+    </otv:Object>
+
+</rdf:RDF>
